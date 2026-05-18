@@ -1,0 +1,16 @@
+{
+  "ticker": "NVDA",
+  "issuer": "NVIDIA Corporation",
+  "cusip": "67066G104",
+  "wrapper": "0x2be5d77c7d8a6b3a2d0f2a8d3c9b6e5f1a0d4c3b",
+  "chain": "bsc",
+  "chainId": 56,
+  "decimals": 18,
+  "transferRestricted": true,
+  "issuerBacked": true,
+  "liquidityVenues": [
+    "pancake"
+  ],
+  "settlement": "binance",
+  "listed": "2021-04-12"
+}

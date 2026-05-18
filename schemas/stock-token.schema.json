@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StockTokenRecord",
+  "type": "object",
+  "required": [
+    "ticker",
+    "wrapper",
+    "chain",
+    "chainId",
+    "decimals"
+  ],
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "pattern": "^[A-Z.]{1,8}$"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "cusip": {
+      "type": "string"
+    },
+    "wrapper": {
+      "type": "string"
+    },
+    "chain": {
+      "type": "string",
+      "enum": [
+        "robinhood",
+        "bsc",
+        "evm",
+        "base"
+      ]
+    },
+    "chainId": {
+      "type": "integer"
+    },
+    "decimals": {
+      "type": "integer"
+    },
+    "transferRestricted": {
+      "type": "boolean"
+    },
+    "issuerBacked": {
+      "type": "boolean"
+    },
+    "liquidityVenues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "settlement": {
+      "type": "string"
+    },
+    "listed": {
+      "type": "string"
+    }
+  }
+}
