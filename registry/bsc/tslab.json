@@ -1,0 +1,17 @@
+{
+  "ticker": "TSLA",
+  "issuer": "Tesla, Inc.",
+  "cusip": "88160R101",
+  "wrapper": "0x6Bfa119a191946Ba1E15B1D5e3A1E9B2C9A7fF53",
+  "chain": "bsc",
+  "chainId": 56,
+  "decimals": 18,
+  "transferRestricted": true,
+  "issuerBacked": true,
+  "liquidityVenues": [
+    "pancake",
+    "wombat"
+  ],
+  "settlement": "binance",
+  "listed": "2021-04-12"
+}
