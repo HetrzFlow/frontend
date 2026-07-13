@@ -1,0 +1,14 @@
+{
+  "robinhood": {
+    "chainId": 4663,
+    "rpc": "https://rpc.robinhood.com"
+  },
+  "bsc": {
+    "chainId": 56,
+    "rpc": "https://bsc-dataseed.binance.org"
+  },
+  "base": {
+    "chainId": 8453,
+    "rpc": "https://mainnet.base.org"
+  }
+}
