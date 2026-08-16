@@ -1,0 +1,1150 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-07-03 13:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-Hans\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/hzlp/PoolPieChart/index.tsx:142
+msgid " Pool"
+msgstr ""
+
+#: src/app/[locale]/trade/[instId]/page.tsx:52
+msgid "{coin} | HertzFlow"
+msgstr ""
+
+#: src/containers/trade/market/Price.tsx:44
+msgid "{dispPx} | {coin} | HertzFlow"
+msgstr ""
+
+#: src/containers/trade/market/Ticker.tsx:24
+msgid "24h High"
+msgstr ""
+
+#: src/containers/trade/market/Ticker.tsx:40
+msgid "24h Low"
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:31
+msgid "A basket of SUI, BTC, ETH, USDC"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:56
+msgid "Above Max Limit Price: {dispMaxPrice}"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:159
+msgid "Action"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:73
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:114
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:144
+msgid "All"
+msgstr ""
+
+#: src/containers/trade/trading/tradeBox/openPosition/FormBtn.tsx:92
+#: src/containers/trade/trading/tradeBox/openPosition/FormBtn.tsx:112
+msgid "Approve {coinName}"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:225
+msgid "APR"
+msgstr ""
+
+#: src/components/hzlp/DetailCard/index.tsx:46
+#: src/components/hzlp/Pool/PoolMobile.tsx:57
+#: src/components/hzlp/Pool/PoolStats.tsx:42
+msgid "APY"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:145
+msgid "Available for borrow:"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:67
+msgid "Below Min Limit Price: {dispMinPrice}"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:181
+#: src/hooks/hzlp/useFormValidation.ts:183
+#: src/hooks/useFormValidation.ts:181
+#: src/hooks/useFormValidation.ts:183
+msgid "Below Min Target Weightage Limit"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:292
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:212
+#: src/containers/trade/order/positions/PnL.tsx:142
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:212
+msgid "Borrow Fee Due"
+msgstr ""
+
+#: src/containers/trade/market/Liq.tsx:60
+msgid "Borrow Rate(L/S)"
+msgstr ""
+
+#: src/components/hzlp/Trader/TraderMobile.tsx:34
+msgid "Buy Hzlp"
+msgstr ""
+
+#: src/containers/hzlp/trade/TraderLayoutDesktop.tsx:31
+#: src/containers/hzlp/trade/TraderLayoutMobile.tsx:33
+#: src/hooks/hzlp/useFormValidation.ts:261
+#: src/hooks/useFormValidation.ts:261
+msgid "Buy HzLP"
+msgstr ""
+
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:112
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:107
+msgid "Cancel"
+msgstr ""
+
+#: src/containers/trade/order/openOrders/CancelOrders.tsx:39
+msgid "Cancel {count} orders"
+msgstr ""
+
+#: src/containers/trade/order/components/Operations.tsx:67
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:282
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:92
+msgid "Cancel all"
+msgstr ""
+
+#: src/containers/trade/order/components/Operations.tsx:67
+msgid "Cancel all ({count})"
+msgstr ""
+
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:281
+msgid "Cancel all ({orderCount})"
+msgstr ""
+
+#: src/containers/trade/order/components/Operations.tsx:32
+#: src/containers/trade/order/components/Operations.tsx:34
+#: src/containers/trade/order/index.tsx:209
+#: src/containers/trade/order/index.tsx:211
+msgid "Chart Positions"
+msgstr ""
+
+#: src/containers/dashboard/title/md/index.tsx:23
+#: src/containers/dashboard/title/sm/index.tsx:22
+msgid "Checkpoint "
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/index.tsx:85
+#: src/containers/trade/order/openOrders/md/index.tsx:84
+msgid "Click to load more"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:199
+#: src/containers/trade/order/components/SzInput.tsx:104
+#: src/containers/trade/order/historyRecords/EventType.tsx:21
+#: src/containers/trade/order/historyRecords/EventType.tsx:45
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:206
+#: src/containers/trade/order/positions/sm/PosItem.tsx:117
+msgid "Close"
+msgstr ""
+
+#: src/containers/trade/order/components/Operations.tsx:56
+#: src/containers/trade/order/positions/md/useColumns.tsx:165
+msgid "Close all"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseAllDialog/index.tsx:240
+msgid "Close All Position?"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:304
+#: src/containers/trade/order/positions/PnL.tsx:156
+msgid "Close Fee"
+msgstr ""
+
+#: src/containers/trade/order/components/Side.tsx:24
+#: src/containers/trade/order/historyRecords/EventType.tsx:23
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:137
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:163
+msgid "Close Long"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/index.tsx:41
+msgid "Close Long {coinName}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseAllDialog/index.tsx:192
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:428
+msgid "Close Position"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseAllDialog/index.tsx:192
+msgid "Close Positions"
+msgstr ""
+
+#: src/containers/trade/order/components/Side.tsx:28
+#: src/containers/trade/order/historyRecords/EventType.tsx:47
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:141
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:167
+msgid "Close Short"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/index.tsx:42
+msgid "Close Short {coinName}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/SzInput.tsx:33
+msgid "Close Size"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:103
+#: src/containers/trade/order/positions/CloseAllDialog/index.tsx:197
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:331
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:435
+msgid "Closed"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:199
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:73
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:243
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:80
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:166
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:140
+#: src/containers/trade/order/positions/md/useColumns.tsx:111
+#: src/containers/trade/order/positions/PnL.tsx:126
+#: src/containers/trade/order/positions/sm/PosItem.tsx:80
+msgid "Collateral"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/HelpfulInfo.tsx:58
+msgid "Collateral (at limit price)"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:105
+#: src/containers/trade/order/positions/CloseAllDialog/Content.tsx:40
+msgid "Confirm"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:163
+#: src/hooks/useFormValidation.ts:163
+msgid "Connect Wallet"
+msgstr ""
+
+#: src/containers/trade/order/NoConnect.tsx:9
+msgid "Connect your wallet to see all your trades"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:155
+msgid "Copy Image"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:206
+msgid "Create Order"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:220
+msgid "Current / Target Weightage"
+msgstr ""
+
+#: src/containers/dashboard/title/md/index.tsx:21
+#: src/containers/dashboard/title/sm/index.tsx:20
+msgid "Dashboard"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:33
+#: src/containers/trade/order/historyRecords/EventType.tsx:57
+msgid "Decrease"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:71
+msgid "Decrease {coinName} Long"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:72
+msgid "Decrease {coinName} Short"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:35
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:145
+msgid "Decrease Long"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:59
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:149
+msgid "Decrease Short"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:182
+#: src/containers/trade/order/positions/EditCollateralDialog/SzInput.tsx:71
+#: src/containers/trade/order/positions/EditCollateralDialog/TypeTabs.tsx:22
+msgid "Deposit"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/useFormAction.tsx:259
+msgid "Deposited {dispSize}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseAllDialog/Content.tsx:28
+msgid "Dismiss"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:159
+msgid "Download"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:194
+msgid "Drag to modify order price"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:90
+msgid "Edit {instText} by {dispSize}"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/useFormAction.tsx:252
+msgid "Edit Collateral"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/index.tsx:53
+msgid "Edit Collateral ({instText})"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/useFormAction.tsx:165
+msgid "Edit Order"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/index.tsx:90
+#: src/containers/trade/order/openOrders/md/index.tsx:89
+msgid "End of list"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:62
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:88
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:100
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:86
+#: src/hooks/hzlp/useFormValidation.ts:193
+#: src/hooks/useFormValidation.ts:193
+msgid "Enter an amount"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:234
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:252
+#: src/containers/trade/order/positions/md/useColumns.tsx:66
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:139
+#: src/containers/trade/order/positions/sm/PosItem.tsx:90
+#: src/containers/trade/trading/helpfulInfo/EntryPx.tsx:44
+msgid "Entry Price"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:196
+msgid "Est. RPnL"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:250
+#: src/hooks/hzlp/useFormValidation.ts:252
+#: src/hooks/useFormValidation.ts:250
+#: src/hooks/useFormValidation.ts:252
+msgid "Exceeds Max Input {maxAmount}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:394
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:512
+msgid "Execution taking longer than usual. Please check later for the latest status."
+msgstr ""
+
+#: src/containers/trade/trading/helpfulInfo/ExitPx.tsx:48
+msgid "Existing positions close at {dispExitPrice}. Exit price subject to asset price changes."
+msgstr ""
+
+#: src/containers/trade/trading/helpfulInfo/ExitPx.tsx:29
+msgid "Exit Price"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:264
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:331
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:373
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:451
+msgid "Failed"
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:68
+msgid "Failed to fetch a valid swap quote. Please adjust your amount or try again later."
+msgstr ""
+
+#: src/components/charts/FeeChartPresenter.tsx:106
+#: src/components/charts/mobile/FeeChartPresenterMobile.tsx:91
+msgid "Failed to load fee data"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/datafeed/index.ts:205
+msgid "Failed to load history candlestick data."
+msgstr ""
+
+#: src/components/charts/HzlpSupplyChartPresenter.tsx:65
+msgid "Failed to load HzLP supply data"
+msgstr ""
+
+#: src/components/charts/HzlpUtilizationChartPresenter.tsx:72
+msgid "Failed to load HzLP utilization data"
+msgstr ""
+
+#: src/components/charts/OpenInterestChartPresenter.tsx:74
+msgid "Failed to load open interest data"
+msgstr ""
+
+#: src/components/charts/mobile/PoolCompositionChartPresenterMobile.tsx:103
+#: src/components/charts/PoolCompositionChartPresenter.tsx:107
+msgid "Failed to load pool composition data"
+msgstr ""
+
+#: src/components/charts/mobile/UsersChartPresenterMobile.tsx:80
+#: src/components/charts/UsersChartPresenter.tsx:87
+msgid "Failed to load users data"
+msgstr ""
+
+#: src/components/charts/mobile/VolumeChartPresenterMobile.tsx:84
+#: src/components/charts/VolumeChartPresenter.tsx:96
+msgid "Failed to load volume data"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:210
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:80
+msgid "Fee"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:242
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:191
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:149
+msgid "Fees"
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:37
+msgid "Fees from trading, borrowing, and position adjustments"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:203
+#: src/hooks/useFormValidation.ts:203
+msgid "Finalizing Quote"
+msgstr ""
+
+#: src/containers/trade/order/positions/PnL.tsx:133
+msgid "Gross PnL"
+msgstr ""
+
+#: src/app/[locale]/dashboard/page.tsx:27
+#: src/app/[locale]/swap/page.tsx:26
+#: src/app/layout.tsx:25
+msgid "HertzFlow | The world leverage engine"
+msgstr ""
+
+#: src/containers/trade/order/components/Operations.tsx:40
+#: src/containers/trade/order/components/Operations.tsx:42
+#: src/containers/trade/order/index.tsx:217
+#: src/containers/trade/order/index.tsx:219
+msgid "Hide Others"
+msgstr ""
+
+#: src/components/hzlp/ImpactAlert/index.tsx:29
+#: src/components/ImpactAlert.tsx:181
+msgid "High Price Impact: {displayPriceImpact}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/AlertBanner.tsx:76
+#: src/containers/trade/trading/tradeBox/openPosition/AlertBanner.tsx:119
+msgid "High Price Impact: {dispPriceImpactPercent}"
+msgstr ""
+
+#: src/containers/trade/trading/tradeBox/openPosition/AlertBanner.tsx:122
+msgid "High Swap Impact on Weightage: {dispBorrowImpact}"
+msgstr ""
+
+#: src/components/hzlp/ImpactAlert/index.tsx:33
+#: src/components/ImpactAlert.tsx:185
+msgid "High Swap Impact on Weightage: {displayImpactOnWeightage}"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:205
+msgid "History"
+msgstr ""
+
+#: src/containers/dashboard/overview/useDashboardOverviewData.tsx:66
+msgid "HLP Pool"
+msgstr ""
+
+#: src/components/hzlp/Trader/TraderDesktop.tsx:32
+msgid "Holding"
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:20
+msgid "HzLP"
+msgstr ""
+
+#: src/components/hzlp/Pool/PoolDesktop.tsx:33
+msgid "HzLP Pool"
+msgstr ""
+
+#: src/components/hzlp/Pool/PoolStats.tsx:31
+msgid "HzLP Price"
+msgstr ""
+
+#: src/components/hzlp/Pool/PoolStats.tsx:53
+msgid "HzLP Supply"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:99
+msgid "Image copied"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:79
+msgid "Image downloaded"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:27
+#: src/containers/trade/order/historyRecords/EventType.tsx:51
+msgid "Increase"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:61
+msgid "Increase {coinName} Long"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:66
+msgid "Increase {coinName} Short"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:29
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:129
+msgid "Increase Long"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:53
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:133
+msgid "Increase Short"
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:22
+#: src/containers/hzlp/overview/index.tsx:45
+msgid "Learn more"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/HelpfulInfo.tsx:92
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:113
+#: src/containers/trade/trading/helpfulInfo/Leverage.tsx:22
+msgid "Leverage"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:83
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:99
+msgid ""
+"Leverage too high\n"
+"(above 100x)"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:87
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:152
+msgid ""
+"Leverage too low\n"
+"(below 1.1x)"
+msgstr ""
+
+#: src/components/OrderTypeTabs.tsx:56
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:199
+#: src/containers/trade/order/components/Type.tsx:18
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:81
+#: src/containers/trade/order/historyRecords/OrderType.tsx:13
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:71
+#: src/containers/trade/order/positions/CloseDialog/OrderTypeTabs.tsx:30
+msgid "Limit"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:102
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:261
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:430
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:370
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:543
+msgid "Limit Order"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawPositionLine.tsx:164
+msgid "Liq Long"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawPositionLine.tsx:164
+msgid "Liq Short"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:219
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:166
+#: src/containers/trade/order/positions/md/useColumns.tsx:84
+#: src/containers/trade/order/positions/sm/PosItem.tsx:102
+#: src/containers/trade/trading/helpfulInfo/LiqPx.tsx:34
+msgid "Liq. Price"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/EventType.tsx:62
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:155
+msgid "Liquidated"
+msgstr ""
+
+#: src/containers/trade/order/positions/LiqPrice.tsx:78
+msgid "Liquidation risk accounts for both collateral and accrued fees. Even in the absence of price changes, accrued borrowing fees may trigger liquidation."
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:206
+msgid "Liquidity Allocation"
+msgstr ""
+
+#: src/containers/trade/market/Liq.tsx:32
+msgid "Liquidity(L/S)"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:199
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:76
+#: src/containers/trade/trading/sm/index.tsx:39
+#: src/containers/trade/trading/tradeBox/index.tsx:80
+msgid "Long"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:125
+msgid "LONG"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/index.tsx:42
+#: src/containers/trade/trading/tradeBox/openPosition/FormBtn.tsx:98
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useValidate.tsx:73
+msgid "Long {coinName}"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/PriceInput.tsx:110
+#: src/containers/trade/order/positions/CloseDialog/PriceInput.tsx:133
+msgid "Mark"
+msgstr ""
+
+#: src/containers/trade/market/InstSelector/Content.tsx:39
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:100
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:227
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:259
+#: src/containers/trade/order/positions/md/useColumns.tsx:75
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:143
+#: src/containers/trade/order/positions/sm/PosItem.tsx:98
+msgid "Mark Price"
+msgstr ""
+
+#: src/containers/trade/order/components/Price.tsx:40
+msgid "market"
+msgstr ""
+
+#: src/components/hzlp/Allocation/sm/index.tsx:349
+#: src/components/OrderTypeTabs.tsx:50
+#: src/containers/trade/order/components/Type.tsx:24
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:77
+#: src/containers/trade/order/historyRecords/OrderType.tsx:15
+#: src/containers/trade/order/positions/CloseDialog/OrderTypeTabs.tsx:24
+msgid "Market"
+msgstr ""
+
+#: src/components/hzlp/Pool/PoolStats.tsx:64
+msgid "Market Cap"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:321
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:383
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:441
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:501
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:542
+msgid "Market Order"
+msgstr ""
+
+#: src/containers/trade/order/components/SzInput.tsx:106
+#: src/containers/trade/order/components/SzInput.tsx:130
+msgid "Max"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:93
+msgid "Max close amount exceeded"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:173
+msgid "Max Close Size: {dispMaxValue} USD"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:131
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useValidate.tsx:182
+msgid "Max Collateral: {dispMaxValue} USD"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:152
+msgid "Max Deposit:"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/PriceInput.tsx:99
+#: src/containers/trade/order/positions/CloseDialog/PriceInput.tsx:122
+#: src/containers/trade/trading/tradeBox/openPosition/PriceInput.tsx:122
+msgid "Max Price: {dispLimitPx}"
+msgstr ""
+
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useValidate.tsx:241
+msgid "Max Swap Size: {maxSwapSize} USD"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:171
+#: src/hooks/hzlp/useFormValidation.ts:173
+#: src/hooks/useFormValidation.ts:171
+#: src/hooks/useFormValidation.ts:173
+msgid "Max Target Weightage Limit Exceeded"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:168
+msgid "Max Withdrawal:"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:158
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useValidate.tsx:119
+msgid "Min Collateral: {dispMinValue} USD"
+msgstr ""
+
+#: src/hooks/hzlp/useFormValidation.ts:211
+#: src/hooks/hzlp/useFormValidation.ts:213
+#: src/hooks/useFormValidation.ts:211
+#: src/hooks/useFormValidation.ts:213
+msgid "Min Order: {MIN_HZLP_ORDER_USD} USD"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/PriceInput.tsx:100
+#: src/containers/trade/order/positions/CloseDialog/PriceInput.tsx:123
+#: src/containers/trade/trading/tradeBox/openPosition/PriceInput.tsx:122
+msgid "Min Price: {dispLimitPx}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:181
+msgid "Min Residual Collateral: {dispMinValue} USD"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:94
+msgid "Minimum residual collareral: {dispMinValue} USD"
+msgstr ""
+
+#: src/containers/trade/order/positions/md/useColumns.tsx:128
+#: src/containers/trade/order/positions/sm/PosItem.tsx:58
+msgid "Net Value"
+msgstr ""
+
+#: src/containers/trade/order/positions/PnL.tsx:122
+msgid "Net Value = Collateral + Gross PnL - Borrow fee - Close fee"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:281
+#: src/components/hzlp/Allocation/sm/index.tsx:374
+#: src/components/hzlp/PoolPieChart/index.tsx:142
+msgid "No Data"
+msgstr ""
+
+#: src/containers/trade/order/components/Table.tsx:198
+#: src/containers/trade/order/historyRecords/sm/index.tsx:30
+#: src/containers/trade/order/openOrders/sm/index.tsx:33
+#: src/containers/trade/order/positions/sm/index.tsx:36
+msgid "No matching results found."
+msgstr ""
+
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:26
+msgid "No."
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:55
+msgid "Not enough liquidity to complete this trade. Try reducing your trade size."
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:199
+#: src/containers/trade/order/historyRecords/EventType.tsx:15
+#: src/containers/trade/order/historyRecords/EventType.tsx:39
+msgid "Open"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:62
+msgid "Open {coinName} Long"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/index.tsx:67
+msgid "Open {coinName} Short"
+msgstr ""
+
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:199
+msgid "Open Fee"
+msgstr ""
+
+#: src/containers/dashboard/overview/useDashboardOverviewData.tsx:101
+msgid "Open Interest"
+msgstr ""
+
+#: src/containers/trade/market/Liq.tsx:46
+msgid "Open Interest(L/S)"
+msgstr ""
+
+#: src/containers/trade/order/components/Side.tsx:20
+#: src/containers/trade/order/historyRecords/EventType.tsx:17
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:121
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:151
+msgid "Open Long"
+msgstr ""
+
+#: src/containers/trade/order/components/Side.tsx:32
+#: src/containers/trade/order/historyRecords/EventType.tsx:41
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:125
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:155
+msgid "Open Short"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:103
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:435
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:451
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:546
+msgid "Opened"
+msgstr ""
+
+#: src/containers/trade/trading/tradeBox/openPosition/FormBtn.tsx:92
+msgid "Opening Order"
+msgstr ""
+
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:68
+msgid "Order Time"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:195
+msgid "Orders"
+msgstr ""
+
+#: src/containers/trade/order/components/Size.tsx:50
+msgid "Orders({count})"
+msgstr ""
+
+#: src/app/global-not-found.tsx:63
+msgid "Page Not Found | HertzFlow"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:429
+msgid "Partial Close"
+msgstr ""
+
+#: src/containers/hzlp/trade/Form.tsx:106
+msgid "Paying"
+msgstr ""
+
+#: src/containers/hzlp/trade/Form.tsx:38
+msgid "Please enter a valid amount"
+msgstr ""
+
+#: src/containers/hzlp/trade/Form.tsx:41
+msgid "Please select a coin"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:218
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:84
+msgid "PnL"
+msgstr ""
+
+#: src/containers/trade/order/positions/PnL.tsx:169
+msgid "PnL After Fee"
+msgstr ""
+
+#: src/components/hzlp/DetailPoolComposition/md/index.tsx:18
+#: src/components/hzlp/DetailPoolComposition/sm/index.tsx:17
+#: src/components/hzlp/Pool/PoolDesktop.tsx:45
+msgid "Pool Composition"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:217
+#: src/components/hzlp/Allocation/sm/index.tsx:350
+msgid "Pool Size"
+msgstr ""
+
+#: src/containers/trade/order/index.tsx:184
+msgid "Positions"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/PriceInput.tsx:108
+#: src/components/hzlp/Allocation/md/index.tsx:214
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:180
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:65
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:211
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:89
+#: src/containers/trade/order/positions/CloseDialog/PriceInput.tsx:131
+msgid "Price"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:120
+msgid "Price Above Liq Price"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:117
+msgid "Price Below Liq Price"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:277
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:184
+msgid "Price Impact"
+msgstr ""
+
+#: src/components/hzlp/FeeContent/index.tsx:107
+msgid "Price Impact/LP Fee Rate"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:72
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:107
+#: src/containers/trade/trading/tradeBox/openPosition/validators/price.ts:19
+msgid ""
+"Price too high\n"
+"(above 1.1x current)"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/FormBtn.tsx:75
+#: src/containers/trade/order/positions/CloseDialog/FormBtn.tsx:111
+#: src/containers/trade/trading/tradeBox/openPosition/validators/price.ts:24
+msgid ""
+"Price too low\n"
+"(below 0.9x current)"
+msgstr ""
+
+#: src/components/hzlp/FeeContent/index.tsx:61
+msgid "Rate"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:333
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:241
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:243
+msgid "Read more"
+msgstr ""
+
+#: src/containers/hzlp/trade/Form.tsx:124
+msgid "Receive"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/ReceiveInput.tsx:93
+msgid "Receive In"
+msgstr ""
+
+#: src/containers/trade/market/InstSelector/index.tsx:71
+msgid "Select Market"
+msgstr ""
+
+#: src/components/hzlp/Trader/TraderMobile.tsx:42
+msgid "Sell Hzlp"
+msgstr ""
+
+#: src/containers/hzlp/trade/TraderLayoutDesktop.tsx:37
+#: src/containers/hzlp/trade/TraderLayoutMobile.tsx:39
+#: src/hooks/hzlp/useFormValidation.ts:261
+#: src/hooks/useFormValidation.ts:261
+msgid "Sell HzLP"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/DrawOrderLine.tsx:199
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:76
+#: src/containers/trade/trading/sm/index.tsx:47
+#: src/containers/trade/trading/tradeBox/index.tsx:101
+msgid "Short"
+msgstr ""
+
+#: src/containers/trade/order/positions/ShareDialog/Content.tsx:125
+msgid "SHORT"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/index.tsx:42
+#: src/containers/trade/trading/tradeBox/openPosition/FormBtn.tsx:98
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useValidate.tsx:74
+msgid "Short {coinName}"
+msgstr ""
+
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:173
+msgid "Side"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/HelpfulInfo.tsx:84
+#: src/components/hzlp/Pool/PoolMobile.tsx:81
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:189
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:69
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:234
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:76
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:136
+#: src/containers/trade/order/positions/EditCollateralDialog/HelpfulInfo.tsx:267
+#: src/containers/trade/order/positions/md/useColumns.tsx:48
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:33
+#: src/containers/trade/order/positions/sm/PosItem.tsx:70
+msgid "Size"
+msgstr ""
+
+#: src/components/hzlp/FeeContent/index.tsx:182
+#: src/containers/trade/trading/helpfulInfo/Slippage.tsx:28
+msgid "Slippage"
+msgstr ""
+
+#: src/components/hzlp/FeeContent/index.tsx:186
+#: src/containers/trade/trading/helpfulInfo/Slippage.tsx:36
+msgid "Slippage below 1% in versatile markets may cause failed execution and gas loss."
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:43
+msgid "Slippage tolerance is too low. Please increase your slippage and try again."
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:392
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:510
+msgid "Submitted"
+msgstr ""
+
+#: src/components/EditOrderPriceDialog/useFormAction.tsx:169
+msgid "Succeeded"
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:296
+msgid "Swap"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/HelpfulInfo.tsx:265
+#: src/containers/trade/trading/helpfulInfo/PositionInfo.tsx:172
+msgid "Swap Fee"
+msgstr ""
+
+#: src/containers/trade/market/InstSelector/Content.tsx:38
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:57
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:59
+#: src/containers/trade/order/positions/md/useColumns.tsx:34
+msgid "Symbol"
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:27
+msgid "The HertzFlow Liquidity Pool (HzLP) acts as a counterparty for traders, lending them assets. The HzLP token's value reflects:"
+msgstr ""
+
+#: src/app/global-not-found.tsx:65
+msgid "The page you are looking for cannot be found."
+msgstr ""
+
+#: src/containers/trade/trading/helpfulInfo/EntryPx.tsx:88
+msgid "The position opens at {dispNextEntryPrice} with a maximum {dispSlippage} slippage. Adjust the slippage amount via the trading panel."
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseAllDialog/Content.tsx:21
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:34
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:89
+#: src/containers/trade/order/openOrders/md/useColumns.tsx:35
+#: src/containers/trade/order/openOrders/sm/OrderItem.tsx:106
+msgid "Time"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:211
+msgid "Token"
+msgstr ""
+
+#: src/containers/dashboard/overview/useDashboardOverviewData.tsx:44
+msgid "Total Fees"
+msgstr ""
+
+#: src/components/hzlp/LiquidityLineChart/index.tsx:57
+#: src/components/hzlp/Pool/PoolDesktop.tsx:36
+msgid "Total Liquidity"
+msgstr ""
+
+#: src/containers/dashboard/overview/useDashboardOverviewData.tsx:94
+msgid "Total User"
+msgstr ""
+
+#: src/containers/dashboard/overview/useDashboardOverviewData.tsx:19
+msgid "Total Volume"
+msgstr ""
+
+#: src/app/[locale]/dashboard/page.tsx:28
+#: src/app/[locale]/swap/page.tsx:27
+#: src/app/[locale]/trade/[instId]/page.tsx:53
+#: src/app/layout.tsx:26
+msgid "Trade anything you want with a leverage from your wallet with confidence."
+msgstr ""
+
+#: src/containers/hzlp/overview/index.tsx:34
+msgid "Traders' net profits/losses"
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:90
+msgid "Transaction execution failed. Please try again or adjust your parameters."
+msgstr ""
+
+#: src/containers/trade/order/components/Type.tsx:21
+msgid "Trigger"
+msgstr ""
+
+#: src/containers/trade/order/positions/OrdersDialog/index.tsx:35
+msgid "Trigger Orders"
+msgstr ""
+
+#: src/containers/trade/order/positions/OrdersDialog/useColumns.tsx:45
+msgid "Trigger Price"
+msgstr ""
+
+#: src/components/hzlp/DetailCard/index.tsx:57
+#: src/components/hzlp/Pool/PoolMobile.tsx:68
+msgid "TVL"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:227
+#: src/containers/trade/order/historyRecords/sm/OrderItem.tsx:93
+msgid "Txns"
+msgstr ""
+
+#: src/containers/trade/order/historyRecords/md/useColumns.tsx:86
+msgid "Type"
+msgstr ""
+
+#: src/containers/trade/kline/tvChart/datafeed/index.ts:208
+msgid "Unsupported interval: {resolution}"
+msgstr ""
+
+#: src/components/hzlp/Allocation/md/index.tsx:261
+#: src/components/hzlp/Allocation/sm/index.tsx:351
+msgid "Utilization"
+msgstr ""
+
+#: src/components/hzlp/Pool/PoolMobile.tsx:90
+msgid "Wallet"
+msgstr ""
+
+#: src/components/CoinSzInput.tsx:99
+#: src/containers/hzlp/trade/CoinSzInputContainer.tsx:64
+#: src/containers/trade/order/components/SzInput.tsx:84
+msgid "Wallet balance must contain at least {minSUI} SUI for gas fee"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/FormBtn.tsx:182
+#: src/containers/trade/order/positions/EditCollateralDialog/SzInput.tsx:71
+#: src/containers/trade/order/positions/EditCollateralDialog/TypeTabs.tsx:28
+msgid "Withdraw"
+msgstr ""
+
+#: src/containers/trade/order/positions/EditCollateralDialog/useFormAction.tsx:258
+msgid "Withdraw {dispSize}"
+msgstr ""
+
+#: src/containers/trade/order/positions/CloseDialog/useFormAction.tsx:266
+#: src/containers/trade/trading/tradeBox/openPosition/hooks/useFormAction.tsx:375
+msgid "You have reached the maximum of 20 active limit orders for this market."
+msgstr ""
+
+#: src/containers/trade/trading/tradeBox/openPosition/index.tsx:105
+msgid "You're paying"
+msgstr ""
+
+#: src/hooks/hzlp/useFormAction.tsx:80
+msgid "Your balance is too low to perform this action. Please add more funds."
+msgstr ""
+
+#: src/containers/trade/trading/helpfulInfo/EntryPx.tsx:63
+msgid "Your current position's entry price will change from {dispCurEntryPrice} to {dispNextEntryPrice}."
+msgstr ""
+
+#: src/components/hzlp/Trader/TraderDesktop.tsx:29
+msgid "Your HzLP"
+msgstr ""

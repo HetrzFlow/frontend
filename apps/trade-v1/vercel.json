@@ -1,0 +1,12 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "preview": true,
+      "release/*": true,
+      "develop": true,
+      "feature/trade-v1": true,
+      "**": false
+    }
+  }
+}

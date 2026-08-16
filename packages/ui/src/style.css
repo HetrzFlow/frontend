@@ -1,0 +1,304 @@
+/* stylelint-disable custom-property-pattern */
+
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+:root {
+  --background: var(--bg-1);
+  --foreground: #fff;
+  --card: var(--bg-2);
+  --card-foreground: #fff;
+  --popover: var(--bg-4);
+  --toast: #3c3f42;
+  --popover-2: var(--bg-4);
+  --popover-foreground: var(--t-1100);
+  --primary: var(--bg-4);
+  --primary-foreground: var(--t-1100);
+  --secondary: var(--bg-2);
+  --secondary-foreground: var(--t-270);
+  --muted: #16191c;
+  --muted-foreground: var(--t-270);
+  --accent: #00dfeb;
+  --accent-foreground: #000;
+  --success: #00dfeb;
+  --destructive: #e12e4b;
+  --destructive-foreground: #fff;
+  --warning: #ffbf00;
+  --border: rgb(191 207 255 / 10%);
+  --border-h5: rgb(191 207 255 / 20%);
+  --border-2: rgb(191 207 255 / 20%);
+  --input: rgb(179 189 217 / 20%);
+  --ring: rgb(191 207 255 / 10%);
+  --chart-1: #00dfeb;
+  --chart-2: #004dff;
+  --chart-3: #fff;
+  --chart-4: #7a7a7a;
+  --sidebar: oklch(20.5% 0 0deg);
+  --sidebar-foreground: #fff;
+  --sidebar-primary: oklch(48.8% 0.243 264.376deg);
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: oklch(26.9% 0 0deg);
+  --sidebar-accent-foreground: #fff;
+  --sidebar-border: oklch(26.9% 0 0deg);
+  --sidebar-ring: oklch(43.9% 0 0deg);
+  --t-1100: #fff;
+  --t-270: rgb(255 255 255 / 70%);
+  --t-350: rgb(255 255 255 / 50%);
+  --t-430: rgb(255 255 255 / 30%);
+  --bg-1: #0a1012;
+  --bg-1-h5: #0a1012;
+  --bg-2: #0e181c;
+  --bg-3: #16242a;
+  --bg-3-h5: rgb(179 189 217 / 20%);
+  --bg-4: #21353d;
+  --bg-5: #2a434d;
+  --bg-swap-arrow: #2d2f34;
+  --bg-swap-arrow-h5: #101114;
+  --bg-6: rgb(191 207 255 / 10%);
+  --bg-6-solid: color-mix(in srgb, rgb(191 207 255) 10%, #21353d);
+  --bg-7: rgb(191 207 255 / 6%);
+  --bg-drawer: rgb(0 223 235 / 5%);
+  --bg-drawer-shadow: #10242b;
+  --color-up: #00dfeb;
+  --color-down: #e12e4b;
+  --bg-1-2-mix: #191919;
+  --bg-table-hover: var(--bg-3);
+  --bg-selection: #002d2f;
+  --bg-card-mix: var(--card);
+  --bg-popover-mix: #464b54;
+  --bg-step-inactive: rgb(255 255 255 / 15%);
+  --green: #32d695;
+
+  /* overrider tw line height */
+  --text-xs--line-height: 1.2;
+  --text-sm--line-height: 1.2;
+  --text-base--line-height: 1.2;
+  --text-lg--line-height: 1.2;
+  --text-xl--line-height: 1.2;
+  --text-2xl--line-height: 1.2;
+
+  /* border gradient color */
+  --border-color-gradient: rgb(179 189 217 / 8%);
+
+  /* React Day Picker variables */
+  --rdp-accent-color: var(--accent);
+  --rdp-accent-background-color: var(--accent);
+  --rdp-range_middle-background-color: color-mix(
+    in srgb,
+    var(--accent) 20%,
+    transparent
+  );
+  --rdp-range_middle-color: var(--foreground);
+  --rdp-range_start-background: var(--accent);
+  --rdp-range_start-color: var(--accent-foreground);
+  --rdp-range_end-background: var(--accent);
+  --rdp-range_end-color: var(--accent-foreground);
+}
+
+.redUp {
+  --color-up: #e12e4b;
+  --color-down: #00dfeb;
+}
+
+@media (width < 768px) {
+  :root {
+    --t-350: rgb(255 255 255 / 70%);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-2: var(--popover-2);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-border-h5: var(--border-h5);
+  --color-border-2: var(--border-2);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --leading-tight: 1.2;
+  --color-t-1100: var(--t-1100);
+  --color-t-270: var(--t-270);
+  --color-t-350: var(--t-350);
+  --color-t-430: var(--t-430);
+  --color-bg-1: var(--bg-1);
+  --color-bg-1-h5: var(--bg-1-h5);
+  --color-bg-1-2-mix: var(--bg-1-2-mix);
+  --color-bg-card-mix: var(--bg-card-mix);
+  --color-bg-popover-mix: var(--bg-popover-mix);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-bg-3-h5: var(--bg-3-h5);
+  --color-bg-4: var(--bg-4);
+  --color-bg-5: var(--bg-5);
+  --color-bg-swap-arrow: var(--bg-swap-arrow);
+  --color-bg-swap-arrow-h5: var(--bg-swap-arrow-h5);
+  --color-bg-6: var(--bg-6);
+  --color-bg-7: var(--bg-7);
+  --color-bg-drawer: var(--bg-drawer);
+  --color-bg-drawer-shadow: var(--bg-drawer-shadow);
+  --color-up: var(--color-up);
+  --color-down: var(--color-down);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-bg-table-hover: var(--bg-table-hover);
+  --color-bg-step-inactive: var(--bg-step-inactive);
+  --color-toast: var(--toast);
+  --color-green: var(--green);
+
+  /* text font */
+  --font-mark: var(--font-mark);
+  --font-borna: var(--font-borna-sans);
+  --font-cerebri: var(--font-cerebri-sans);
+  --default-font-family: var(--font-cerebri);
+
+  /* React Day Picker variables */
+  --rdp-accent-color: var(--accent);
+  --rdp-accent-background-color: var(--accent);
+  --rdp-range_middle-background-color: color-mix(
+    in srgb,
+    var(--accent) 20%,
+    transparent
+  );
+  --rdp-range_middle-color: var(--foreground);
+  --rdp-range_start-background: var(--accent);
+  --rdp-range_start-color: var(--accent-foreground);
+  --rdp-range_end-background: var(--accent);
+  --rdp-range_end-color: var(--accent-foreground);
+
+  /* animation */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50 max-md:border-border-h5;
+  }
+
+  html {
+    font-size: 16px;
+
+    /* locked text size */
+    text-size-adjust: 100% !important;
+  }
+
+  body {
+    @apply bg-background text-foreground max-md:bg-bg-1-h5;
+  }
+
+  svg text {
+    user-select: none;
+  }
+
+  ::selection {
+    background: var(--bg-selection);
+    color: var(--accent);
+  }
+}
+
+@utility scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  /* stylelint-disable-next-line nesting-selector-no-missing-scoping-root */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  :root {
+    --chart-1: #07f3ff;
+    --chart-2: #004dff;
+    --chart-3: #2aa6ff;
+  }
+}
+
+@keyframes ripple {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+@utility animate-ripple {
+  animation: ripple 1.6s ease-out infinite;
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+
+  to {
+    height: 0;
+  }
+}
+
+/* React Day Picker nav btn SVG color */
+.rdp .rdp-button_previous svg,
+.rdp .rdp-button_next svg {
+  fill: currentcolor !important;
+  color: rgb(209 213 219) !important; /* gray-300 */
+}
+
+.rdp .rdp-button_previous:hover svg,
+.rdp .rdp-button_next:hover svg {
+  color: rgb(255 255 255) !important; /* white */
+}
+
+@keyframes caret-blink {
+  0%,
+  70%,
+  100% {
+    opacity: 1;
+  }
+
+  20%,
+  50% {
+    opacity: 0;
+  }
+}
+
+@utility animate-caret-blink {
+  animation: 1.25s ease-out infinite caret-blink;
+}

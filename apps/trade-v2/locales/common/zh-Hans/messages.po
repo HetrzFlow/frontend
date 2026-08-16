@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-10-22 11:48+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-Hans\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/common/containers/tools/portfolioTracker/List.tsx:21
+msgid "24h CHG"
+msgstr "24h 涨跌幅"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:10
+msgid "a16z"
+msgstr "a16z"
+
+#: src/common/validators/price.ts:272
+msgid "Above Highest Limit Price {dispTriggerPx}"
+msgstr "高于最高限价 {dispTriggerPx}"
+
+#: src/common/validators/price.ts:139
+msgid "Above Lowest Limit Price {dispTriggerPx}"
+msgstr "高于最低限价 {dispTriggerPx}"
+
+#: src/common/validators/price.ts:163
+msgid "Above Mark Price {dispMarkPx}"
+msgstr "高于标记价格 {dispMarkPx}"
+
+#: src/common/validators/price.ts:300
+msgid "Above Mark Price {dispPx}"
+msgstr "高于标记价格 {dispPx}"
+
+#: src/common/validators/price.ts:138
+#: src/common/validators/price.ts:271
+msgid "Above Mark Price {dispTriggerPx}"
+msgstr "高于标记价格 {dispTriggerPx}"
+
+#: src/common/validators/leverage.ts:80
+msgid "Above Max Lev {dispMaxLev}x"
+msgstr "超过最大杠杆 {dispMaxLev}x"
+
+#: src/common/validators/price.ts:71
+msgid "Above Max Limit Price"
+msgstr "高于最高限价"
+
+#: src/common/validators/price.ts:377
+#: src/common/validators/price.ts:401
+msgid "Above Max SL Price"
+msgstr "高于止损价格上限"
+
+#: src/common/validators/price.ts:189
+msgid "Above Max TP Price"
+msgstr "高于止盈价格上限"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:144
+msgid "Accept and Continue"
+msgstr "接受并继续"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:126
+msgid "Account overview drawer with portfolio and activity information."
+msgstr "账户概览抽屉，展示资产组合与活动信息。"
+
+#: src/common/components/SeasonSelector.tsx:96
+#: src/common/components/SeasonSelector.tsx:134
+msgid "Active"
+msgstr "进行中"
+
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:53
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:57
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:64
+msgid "Activity"
+msgstr "活动记录"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:287
+msgid "Add it manually to continue."
+msgstr "请手动添加以继续。"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:217
+msgid "Add liquidity to the HertzFlow Liquidity Pool  and earn yield from every trade - perp swaps, position opens/closes, borrowing interest, trader losses, and more. Your capital stays productive 24/7,  and stay flexible with instant withdrawals."
+msgstr "为 HertzFlow 流动性池注入流动性，从每一笔交易中赚取收益——永续兑换、开平仓、借贷利息、交易者亏损等。你的资金 7×24 小时持续创造收益，并支持随时即时取出，灵活无忧。"
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:77
+msgid "Address copied"
+msgstr "地址已复制"
+
+#: src/common/components/CoinSelector/Content.tsx:173
+msgid "Address Copied"
+msgstr "地址已复制"
+
+#: src/common/components/Leverage.tsx:219
+msgid "Adjust Leverage"
+msgstr "调整杠杆"
+
+#: src/common/containers/tools/smartFlows/Tabs.tsx:15
+msgid "All"
+msgstr "全部"
+
+#: src/common/hooks/useTokenAllowance.tsx:84
+msgid "Approval"
+msgstr "授权"
+
+#: src/common/hooks/useTokenAllowance.tsx:91
+msgid "Approving token spending"
+msgstr "正在授权代币使用额度"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Vaults.tsx:61
+msgid "APY"
+msgstr "APY"
+
+#: src/common/containers/tools/portfolioTracker/List.tsx:19
+msgid "Asset"
+msgstr "资产"
+
+#: src/common/containers/tools/smartFlows/Item.tsx:57
+msgid "at"
+msgstr "于"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:345
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:376
+#: src/common/containers/header/Settings/PanelLayout.tsx:38
+msgid "Back"
+msgstr "返回"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:97
+msgid "Before you start trading, please review and accept our terms."
+msgstr "开始交易前，请阅读并接受我们的条款。"
+
+#: src/common/validators/price.ts:125
+#: src/common/validators/price.ts:286
+msgid "Below Highest Limit Price {dispTriggerPx}"
+msgstr "低于最高限价 {dispTriggerPx}"
+
+#: src/common/validators/price.ts:153
+msgid "Below Mark Price {dispMarkPx}"
+msgstr "低于标记价格 {dispMarkPx}"
+
+#: src/common/validators/price.ts:310
+msgid "Below Mark Price {dispPx}"
+msgstr "低于标记价格 {dispPx}"
+
+#: src/common/validators/price.ts:124
+#: src/common/validators/price.ts:285
+msgid "Below Mark Price {dispTriggerPx}"
+msgstr "低于标记价格 {dispTriggerPx}"
+
+#: src/common/validators/leverage.ts:115
+msgid "Below Min Lev {dispMinLev}x (Hyper mode)"
+msgstr "低于最小杠杆 {dispMinLev}x（超高杠杆模式）"
+
+#: src/common/validators/leverage.ts:117
+msgid "Below Min Lev 1.1x"
+msgstr "低于最小杠杆 1.1x"
+
+#: src/common/validators/price.ts:76
+msgid "Below Min Limit Price"
+msgstr "低于最低限价"
+
+#: src/common/validators/price.ts:363
+#: src/common/validators/price.ts:414
+msgid "Below Min SL Price"
+msgstr "低于止损价格下限"
+
+#: src/common/validators/price.ts:203
+msgid "Below Min TP Price"
+msgstr "低于止盈价格下限"
+
+#: src/common/hooks/useReferralCodeValidation.ts:42
+msgid "Can not be all digits. Please include at least one letter."
+msgstr "不能全为数字，请至少包含一个字母。"
+
+#: src/common/hooks/useCancelOrder.tsx:44
+msgid "Cancel Order"
+msgstr "撤销订单"
+
+#: src/common/hooks/useCancelOrder.tsx:43
+msgid "Cancel Orders"
+msgstr "撤销订单"
+
+#: src/common/hooks/useCancelOrder.tsx:50
+msgid "Canceled"
+msgstr "已撤销"
+
+#: src/common/hooks/useTradeEventType.ts:28
+msgid "Cancelled Limit"
+msgstr "已撤销限价单"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:83
+msgid "Cancelled Pool Deposit"
+msgstr "已取消流动性池存入"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:84
+msgid "Cancelled Pool Withdraw"
+msgstr "已取消流动性池取出"
+
+#: src/common/hooks/useTradeEventType.ts:40
+msgid "Cancelled Stop Loss"
+msgstr "已撤销止损单"
+
+#: src/common/hooks/useTradeEventType.ts:34
+msgid "Cancelled Take Profit"
+msgstr "已撤销止盈单"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:87
+msgid "Cancelled Vault Deposit"
+msgstr "已取消金库存入"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:88
+msgid "Cancelled Vault Withdraw"
+msgstr "已取消金库取出"
+
+#: src/common/components/Leverage.tsx:252
+msgid "Change Leverage"
+msgstr "调整杠杆"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:72
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:66
+msgid "Claim"
+msgstr "领取"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Claimable.tsx:163
+msgid "Claimable"
+msgstr "可领取"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:234
+msgid "Claimable in {countdownText}"
+msgstr "{countdownText} 后可领取"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:236
+msgid "Click to load more"
+msgstr "点击加载更多"
+
+#: src/common/containers/header/MobileGenesisEntry.tsx:69
+msgid "Close"
+msgstr "关闭"
+
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:20
+msgid "Close Long"
+msgstr "平多"
+
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:24
+msgid "Close Short"
+msgstr "平空"
+
+#: src/common/hooks/useReferralCodeValidation.ts:51
+msgid "Code already bound."
+msgstr "该推荐码已绑定。"
+
+#: src/common/hooks/useReferralCodeValidation.ts:45
+msgid "Code already taken. Please try another one."
+msgstr "推荐码已被占用，请换一个试试。"
+
+#: src/common/hooks/useReferralCodeValidation.ts:47
+msgid "Code invalid. Please try another one."
+msgstr "推荐码无效，请换一个试试。"
+
+#: src/common/components/CoinSelector/index.tsx:102
+msgid "Coin list"
+msgstr "币种列表"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:72
+msgid "Collateral"
+msgstr "保证金"
+
+#: src/common/containers/header/NavItem.tsx:140
+#: src/common/containers/header/Settings/NetworkPanel.tsx:53
+msgid "Coming Soon"
+msgstr "即将上线"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:606
+msgid "Commodities"
+msgstr "大宗商品"
+
+#: src/common/hooks/useExecTransaction.tsx:317
+#: src/common/hooks/useTokenAllowance.tsx:92
+msgid "Completed"
+msgstr "已完成"
+
+#: src/common/containers/header/AccountDrawer/index.tsx:148
+msgid "Connect"
+msgstr "连接钱包"
+
+#: src/common/components/ConnectBtn/index.tsx:81
+msgid "Connect Wallet"
+msgstr "连接钱包"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:244
+msgid "Connect Wallet to Claim"
+msgstr "连接钱包以领取"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:128
+msgid "Connect your wallet to receive test funds"
+msgstr "连接钱包以领取测试资金"
+
+#: src/common/components/WalletConnectEmptyState/index.tsx:204
+msgid "Connect your wallet to see all your trades"
+msgstr "连接钱包以查看你的全部交易"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:199
+msgid "Connect your wallet to SUI Testnet and claim ETH, BTC and USDT faucets to start mock trading seamlessly."
+msgstr "连接钱包至 SUI 测试网，领取 ETH、BTC 与 USDT 水龙头，畅快开启模拟交易。"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:468
+msgid "Connecting wallet..."
+msgstr "正在连接钱包..."
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:385
+msgid "Connection request rejected. Approve it in your wallet to continue."
+msgstr "已拒绝连接请求，请在钱包中确认连接以继续。"
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:68
+msgid "Copy Address"
+msgstr "复制地址"
+
+#: src/common/hooks/useTradeEventType.ts:25
+msgid "Created Limit"
+msgstr "已创建限价单"
+
+#: src/common/hooks/useTradeEventType.ts:37
+msgid "Created Stop Loss"
+msgstr "已创建止损单"
+
+#: src/common/hooks/useTradeEventType.ts:31
+msgid "Created Take Profit"
+msgstr "已创建止盈单"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:67
+msgid "Credit Claim"
+msgstr "体验金领取"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:602
+msgid "Crypto"
+msgstr "加密货币"
+
+#: src/common/components/Slippage.tsx:248
+msgid "Custom"
+msgstr "自定义"
+
+#: src/common/components/Slippage.tsx:247
+msgctxt "Swap"
+msgid "Custom"
+msgstr "自定义"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:14
+msgid "Delphi"
+msgstr "Delphi"
+
+#: src/common/hooks/useTradeEventType.ts:15
+msgid "Deposit"
+msgstr "存入"
+
+#: src/common/containers/header/MobileGenesisEntry.tsx:54
+msgid "Deposit to earn ~{apyLabel} APY rewards and a {boostLabel} Merits boost."
+msgstr "存入即可赚取 ～{apyLabel} APY 收益和 {boostLabel} 功德加成。"
+
+#: src/common/components/ConnectBtn/index.tsx:58
+#: src/common/containers/header/AccountDrawer/Content.tsx:153
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:119
+msgid "Disconnect Wallet"
+msgstr "断开钱包连接"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:40
+msgid "Disconnected"
+msgstr "已断开"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:38
+msgid "Disconnecting"
+msgstr "正在断开"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:354
+msgid "Do not show again"
+msgstr "不再显示"
+
+#: src/common/components/Slippage.tsx:349
+msgctxt "Swap"
+msgid "Done"
+msgstr "完成"
+
+#: src/common/components/SharePosterDialogLayout.tsx:160
+msgid "Download"
+msgstr "下载"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:189
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:241
+msgid "End of list"
+msgstr "已到列表末尾"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:594
+msgid "Equities"
+msgstr "股票"
+
+#: src/common/hooks/useClaimUSDT.tsx:31
+msgid "Error occurred. Please refresh page and try again."
+msgstr "发生错误，请刷新页面后重试。"
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:51
+msgid "Export cancelled or failed"
+msgstr "导出已取消或失败"
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:102
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:121
+msgid "Export Social Wallet"
+msgstr "导出社交钱包"
+
+#: src/common/hooks/useExecTransaction.tsx:372
+msgid "Failed"
+msgstr "失败"
+
+#: src/common/hooks/useTradeEventType.ts:21
+msgid "Failed Deposit"
+msgstr "存入失败"
+
+#: src/common/hooks/useTradeEventType.ts:27
+msgid "Failed Limit"
+msgstr "限价单失败"
+
+#: src/common/hooks/useTradeEventType.ts:19
+msgid "Failed Market Price Close"
+msgstr "市价平仓失败"
+
+#: src/common/hooks/useTradeEventType.ts:20
+msgid "Failed Market Price Decrease"
+msgstr "市价减仓失败"
+
+#: src/common/hooks/useTradeEventType.ts:18
+msgid "Failed Market Price Increase"
+msgstr "市价加仓失败"
+
+#: src/common/hooks/useTradeEventType.ts:17
+msgid "Failed Market Price Open"
+msgstr "市价开仓失败"
+
+#: src/common/hooks/useTradeEventType.ts:39
+msgid "Failed Stop Loss"
+msgstr "止损单失败"
+
+#: src/common/hooks/useTradeEventType.ts:33
+msgid "Failed Take Profit"
+msgstr "止盈单失败"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:136
+msgid "Failed to load swap history."
+msgstr "加载兑换历史失败。"
+
+#: src/common/hooks/useExecTransaction.tsx:240
+msgid "Failed to switch network"
+msgstr "切换网络失败"
+
+#: src/common/hooks/useTradeEventType.ts:22
+msgid "Failed Withdrawal"
+msgstr "取出失败"
+
+#: src/common/hooks/useClaimUSDT.tsx:28
+msgid "Faucets successfully claimed! Have fun trading!"
+msgstr "水龙头领取成功！祝交易愉快！"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Pools.tsx:58
+msgid "Fee APY"
+msgstr "手续费 APY"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:76
+msgid "Fee Rebate"
+msgstr "手续费返还"
+
+#: src/common/components/VaultTradeFeeRows.tsx:124
+msgid "Fees"
+msgstr "手续费"
+
+#: src/common/containers/footer/SocialLinks.tsx:35
+#: src/common/containers/footer/SocialLinks.tsx:42
+msgid "Footer.Discord"
+msgstr "Discord"
+
+#: src/common/containers/footer/SocialLinks.tsx:63
+#: src/common/containers/footer/SocialLinks.tsx:70
+msgid "Footer.Docs"
+msgstr "文档"
+
+#: src/common/containers/footer/SocialLinks.tsx:49
+#: src/common/containers/footer/SocialLinks.tsx:56
+msgid "Footer.Telegram"
+msgstr "Telegram"
+
+#: src/common/containers/footer/SocialLinks.tsx:21
+#: src/common/containers/footer/SocialLinks.tsx:28
+msgid "Footer.Twitter"
+msgstr "Twitter"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:590
+msgid "Forex"
+msgstr "外汇"
+
+#: src/common/containers/header/ClaimFaucet/index.tsx:134
+msgid "Free test tokens for the HertzFlow testnet, no real value. Use them to trade risk-free!"
+msgstr "HertzFlow 测试网免费测试代币，无实际价值。用它们零风险体验交易！"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:76
+#: src/common/containers/header/AccountDrawer/Portfolio/Claimable.tsx:83
+msgid "Funding Fee"
+msgstr "资金费用"
+
+#: src/common/containers/header/Content.tsx:52
+#: src/common/containers/header/MobileGenesisEntry.tsx:46
+#: src/common/containers/header/MobileGenesisEntry.tsx:51
+msgid "Genesis Vault"
+msgstr "创世金库"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:236
+#: src/common/containers/header/ClaimFaucet/index.tsx:119
+#: src/common/containers/header/ClaimFaucet/index.tsx:129
+#: src/common/containers/header/ClaimFaucet/index.tsx:132
+#: src/common/hooks/useClaimUSDT.tsx:22
+msgid "Get Test Funds"
+msgstr "领取测试资金"
+
+#: src/common/containers/header/ClaimFaucet/index.tsx:133
+msgid "Get Test Funds info"
+msgstr "领取测试资金说明"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:181
+msgid "Get testnet BNB"
+msgstr "获取测试网 BNB"
+
+#: src/common/containers/tools/portfolioTracker/List.tsx:22
+msgid "Holdings"
+msgstr "持有量"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:118
+msgid "I fully understand <0>the trading mechanism of HertzFlow</0> and am aware of the trading risks involved in the perpetual trading process."
+msgstr "我已充分理解 <0>HertzFlow 的交易机制</0>，并知悉永续合约交易过程中涉及的交易风险。"
+
+#. js-lingui-explicit-id
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:106
+msgid "disclaimer.policy"
+msgstr "我已阅读并接受<0/>与<1/>。"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:129
+msgid "Inactive: Cancel to avoid unexpected close on entry"
+msgstr "未激活：请撤销，以免开仓时意外平仓"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:598
+msgid "Indices"
+msgstr "指数"
+
+#: src/common/validators/balance.ts:30
+msgid "Insufficient {coinName} balance"
+msgstr "{coinName} 余额不足"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:232
+msgid "Insufficient balance"
+msgstr "余额不足"
+
+#: src/common/hooks/useExecTransaction.tsx:151
+msgid "Insufficient gas token for keeper execution."
+msgstr "Gas 代币不足，无法完成 Keeper 执行。"
+
+#: src/common/components/Leverage.tsx:208
+msgid "Leverage"
+msgstr "杠杆"
+
+#: src/common/hooks/useTradeEventType.ts:24
+msgid "Limit Increase"
+msgstr "限价加仓"
+
+#: src/common/hooks/useTradeEventType.ts:23
+msgid "Limit Open"
+msgstr "限价开仓"
+
+#: src/common/hooks/useTradeEventType.ts:41
+msgid "Liquidated"
+msgstr "已强平"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:183
+msgid "Loading..."
+msgstr "加载中..."
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:69
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:146
+#: src/common/hooks/useExecTransaction.tsx:41
+msgid "Long"
+msgstr "做多"
+
+#: src/common/containers/tools/smartFlows/Item.tsx:51
+msgid "Longed"
+msgstr "已做多"
+
+#: src/common/containers/header/AccountDrawer/Activity/TimelineItem.tsx:491
+msgid "Loss Rebate is determined at execution, based on post-trade OI skew, and remains fixed for the position's lifetime."
+msgstr "亏损返还在成交时确定，依据成交后的持仓偏移计算，并在仓位存续期内保持固定。"
+
+#: src/common/containers/header/AccountDrawer/Activity/TimelineItem.tsx:495
+msgid "Loss Rebate:"
+msgstr "亏损返还："
+
+#: src/common/containers/header/Settings/hooks.ts:54
+msgid "Mainnet"
+msgstr "主网"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:113
+msgid "Market Price"
+msgstr "市价"
+
+#: src/common/hooks/useTradeEventType.ts:13
+msgid "Market Price Close"
+msgstr "市价平仓"
+
+#: src/common/hooks/useTradeEventType.ts:14
+msgid "Market Price Decrease"
+msgstr "市价减仓"
+
+#: src/common/hooks/useTradeEventType.ts:12
+msgid "Market Price Increase"
+msgstr "市价加仓"
+
+#: src/common/hooks/useTradeEventType.ts:11
+msgid "Market Price Open"
+msgstr "市价开仓"
+
+#: src/common/components/CoinSzInput/InputWithBtn.tsx:136
+#: src/common/components/CoinSzInput/InputWithBtn.tsx:236
+#: src/common/components/CoinSzInput/SimpleInput.tsx:69
+#: src/common/components/CoinSzInput/SimpleInput.tsx:165
+msgid "MAX"
+msgstr "最大"
+
+#: src/common/validators/price.ts:375
+#: src/common/validators/price.ts:399
+msgid "Max SL Price {dispPx}"
+msgstr "止损价格上限 {dispPx}"
+
+#: src/common/components/Slippage.tsx:203
+msgctxt "Swap"
+msgid "Max Slippage"
+msgstr "最大滑点"
+
+#: src/common/validators/price.ts:187
+msgid "Max TP Price {dispPx}"
+msgstr "止盈价格上限 {dispPx}"
+
+#: src/common/containers/tools/rankings/Content.tsx:58
+msgid "Me"
+msgstr "我"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:610
+msgid "Meme"
+msgstr "Meme"
+
+#: src/common/validators/leverage.ts:12
+msgid "Min Residual Collateral: {dispMinCollateral} {minCollateralUnit}"
+msgstr "最低剩余保证金：{dispMinCollateral} {minCollateralUnit}"
+
+#: src/common/validators/price.ts:361
+#: src/common/validators/price.ts:412
+msgid "Min SL Price {dispPx}"
+msgstr "止损价格下限 {dispPx}"
+
+#: src/common/validators/price.ts:201
+msgid "Min TP Price {dispPx}"
+msgstr "止盈价格下限 {dispPx}"
+
+#: src/common/components/Leverage.tsx:251
+msgid "Minimum leverage 1.1x"
+msgstr "最小杠杆 1.1x"
+
+#: src/common/containers/header/Nav.tsx:564
+#: src/common/containers/header/Nav.tsx:631
+#: src/common/containers/header/Nav.tsx:763
+msgid "More"
+msgstr "更多"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:18
+msgid "Multicoin"
+msgstr "Multicoin"
+
+#: src/common/components/DetailBannerSkeleton.tsx:6
+msgid "Net APY"
+msgstr "净APY"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:163
+msgid "Net Value"
+msgstr "净值"
+
+#: src/common/containers/header/AccountDrawer/Balance/TotalAssets.tsx:33
+msgid "Net Worth"
+msgstr "净资产"
+
+#: src/common/containers/header/AccountDrawer/Balance/TotalAssets.tsx:50
+msgid "Net Worth = USDT Balance + Pools + Vaults + Net Value + Order Collateral"
+msgstr "净资产 = USDT 余额 + 流动性池 + 金库 + 净值 + 委托保证金"
+
+#: src/common/containers/header/Settings/NetworkSwitch.tsx:21
+msgid "Network"
+msgstr "网络"
+
+#. js-lingui-explicit-id
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:325
+msgid "wallet.networkAddRejected"
+msgstr "已拒绝添加网络，请在钱包中添加 {chainName} 后继续。"
+
+#: src/common/containers/rpcStatus/index.tsx:268
+#: src/common/containers/rpcStatus/index.tsx:290
+msgid "Network connection lost. Please check your connection and try again."
+msgstr "网络连接已断开，请检查网络后重试。"
+
+#: src/common/containers/rpcStatus/index.tsx:267
+#: src/common/containers/rpcStatus/index.tsx:289
+msgid "Network experiencing delays. Please proceed with caution."
+msgstr "网络出现延迟，请谨慎操作。"
+
+#. js-lingui-explicit-id
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:305
+msgid "wallet.networkSwitchRejected"
+msgstr "已拒绝切换网络，请切换到 {chainName} 后继续。"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:614
+msgid "Newly Listed"
+msgstr "新上线"
+
+#: src/common/containers/tools/news/Content.tsx:13
+#: src/common/containers/tools/news/index.tsx:16
+msgid "News"
+msgstr "资讯"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:335
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:394
+msgid "Next"
+msgstr "下一步"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/index.tsx:97
+msgid "No open positions found."
+msgstr "未找到持仓。"
+
+#: src/common/components/CoinSelector/Content.tsx:219
+msgid "No results"
+msgstr "无结果"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:152
+msgid "No swapping activities found."
+msgstr "未找到兑换活动。"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:153
+msgid "No trading activities found."
+msgstr "未找到交易活动。"
+
+#: src/common/containers/header/Settings/OnboardSwitch.tsx:22
+msgid "Onboard"
+msgstr "新手引导"
+
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:16
+msgid "Open Long"
+msgstr "开多"
+
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:28
+msgid "Open Short"
+msgstr "开空"
+
+#: src/common/containers/header/AccountDrawer/Activity/HashTooltipLink.tsx:32
+msgid "Open transaction"
+msgstr "打开交易"
+
+#: src/common/containers/header/AccountDrawer/Balance/Allocation.tsx:83
+#: src/common/containers/header/AccountDrawer/Balance/index.tsx:53
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:167
+msgid "Orders"
+msgstr "订单"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:115
+msgid "Overview"
+msgstr "概览"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:22
+msgid "Pantera"
+msgstr "Pantera"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:26
+msgid "Paradigm"
+msgstr "Paradigm"
+
+#: src/common/hooks/useExecTransaction.tsx:371
+msgid "Pending"
+msgstr "处理中"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PendingLiquidityOrders.tsx:48
+msgid "Pending Pool Orders"
+msgstr "待取消池子订单"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PendingLiquidityOrders.tsx:48
+msgid "Pending Vault Orders"
+msgstr "待取消金库订单"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:126
+msgid "Please connect your wallet to continue."
+msgstr "请连接钱包以继续。"
+
+#: src/common/hooks/useExecTransaction.tsx:243
+msgid "Please switch to the correct network and try again."
+msgstr "请切换到正确的网络后重试。"
+
+#: src/common/containers/tools/smartFlows/Item.tsx:73
+msgid "PnL"
+msgstr "盈亏"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:81
+msgid "Pool Deposit"
+msgstr "流动性池存入"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:82
+msgid "Pool Withdraw"
+msgstr "流动性池取出"
+
+#: src/common/containers/header/AccountDrawer/Balance/Allocation.tsx:68
+#: src/common/containers/header/AccountDrawer/Balance/index.tsx:38
+#: src/common/containers/header/AccountDrawer/Portfolio/Pools.tsx:147
+msgid "Pools"
+msgstr "流动性池"
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:49
+msgid "Portfolio"
+msgstr "资产组合"
+
+#: src/common/containers/tools/portfolioTracker/Content.tsx:13
+#: src/common/containers/tools/portfolioTracker/index.tsx:19
+msgid "Portfolio Tracker"
+msgstr "资产追踪器"
+
+#: src/common/containers/header/AccountDrawer/Balance/Allocation.tsx:78
+#: src/common/containers/header/AccountDrawer/Balance/index.tsx:48
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:223
+msgid "Positions"
+msgstr "仓位"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:73
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:110
+#: src/common/containers/tools/portfolioTracker/List.tsx:20
+#: src/common/containers/tools/smartFlows/Item.tsx:65
+msgid "Price"
+msgstr "价格"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:80
+#: src/common/containers/header/AccountDrawer/Portfolio/Claimable.tsx:84
+msgid "Price Impact"
+msgstr "价格冲击"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:53
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: src/common/containers/tools/rankings/Content.tsx:13
+#: src/common/containers/tools/rankings/index.tsx:16
+msgid "Rankings"
+msgstr "排名"
+
+#: src/common/components/VaultTradeFeeRows.tsx:68
+msgid "Rate"
+msgstr "兑换率"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:154
+msgid "Receiving Wallet Address"
+msgstr "接收钱包地址"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:77
+msgid "Referral Rebate"
+msgstr "推荐返佣"
+
+#: src/common/components/VaultTradeFeeRows.tsx:84
+msgid "Refresh rate"
+msgstr "刷新费率"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:173
+msgid "Require > {MIN_TESTNET_BALANCE} testnet BNB for gas."
+msgstr "需要 > {MIN_TESTNET_BALANCE} 测试网 BNB 作为 Gas。"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:184
+msgid "Reset every 24 hours"
+msgstr "每 24 小时重置一次"
+
+#: src/common/containers/header/AccountDrawer/Activity/UnifiedTimeline.tsx:142
+msgid "Retry"
+msgstr "重试"
+
+#: src/common/components/VaultTradeFeeRows.tsx:100
+msgid "Reverse rate"
+msgstr "反向费率"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:84
+msgid "Rewards"
+msgstr "奖励"
+
+#: src/common/hooks/useClaimUSDT.tsx:46
+msgid "SDK is not available"
+msgstr "SDK 不可用"
+
+#: src/common/components/CoinSelector/Content.tsx:143
+msgid "Search by token or paste address"
+msgstr "搜索代币或粘贴地址"
+
+#: src/common/containers/tools/sectorMover/Content.tsx:10
+#: src/common/containers/tools/sectorMover/index.tsx:19
+msgid "Sector Mover"
+msgstr "板块异动"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:208
+msgid "Select a market, choose your order type and side, set your preferred leverage and slippage, then place your first order. Borrow from a deep pool of BTC, ETH, SUI, or USDT to power your leveraged trades. Track your positions and open orders, review your unrealized PnL, and adjust your collaterals at any time. "
+msgstr "选择市场，确定订单类型与方向，设置你偏好的杠杆与滑点，即可下出第一笔订单。从 BTC、ETH、SUI 或 USDT 的深度资金池中借入资金，为你的杠杆交易提供动力。随时追踪仓位与当前委托、查看未实现盈亏，并灵活调整保证金。"
+
+#: src/common/components/SeasonSelector.tsx:85
+msgid "Select season"
+msgstr "选择赛季"
+
+#: src/common/components/SharePosterDialogLayout.tsx:140
+msgid "Share on Discord"
+msgstr "分享到 Discord"
+
+#: src/common/components/SharePosterDialogLayout.tsx:150
+msgid "Share on Telegram"
+msgstr "分享到 Telegram"
+
+#: src/common/components/SharePosterDialogLayout.tsx:130
+msgid "Share on X"
+msgstr "分享到 X"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:75
+msgid "Shares"
+msgstr "份额"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:70
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:146
+#: src/common/hooks/useExecTransaction.tsx:41
+msgid "Short"
+msgstr "做空"
+
+#: src/common/containers/tools/smartFlows/Item.tsx:51
+msgid "Shorted"
+msgstr "已做空"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:454
+msgid "Signature request rejected. Sign in your wallet to log in."
+msgstr "已拒绝签名请求，请在钱包中签名以登录。"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:452
+msgid "Signature request timed out. Please try again."
+msgstr "签名请求超时，请重试。"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:71
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:98
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:154
+msgid "Size"
+msgstr "价值"
+
+#: src/common/validators/price.ts:275
+#: src/common/validators/price.ts:302
+msgid "SL Price Above Mark Price"
+msgstr "止损价格高于标记价格"
+
+#: src/common/validators/price.ts:276
+msgid "SL Price Above Max Limit Price"
+msgstr "止损价格高于最高限价"
+
+#: src/common/validators/price.ts:289
+#: src/common/validators/price.ts:312
+msgid "SL Price Below Mark Price"
+msgstr "止损价格低于标记价格"
+
+#: src/common/validators/price.ts:290
+msgid "SL Price Below Min Limit Price"
+msgstr "止损价格低于最低限价"
+
+#: src/common/validators/price.ts:337
+msgid "SL Price worse than Liq Price"
+msgstr "止损价格劣于强平价格"
+
+#: src/common/components/Slippage.tsx:181
+#: src/common/components/VaultTradeFeeRows.tsx:140
+msgid "Slippage"
+msgstr "滑点"
+
+#: src/common/components/Slippage.tsx:322
+msgid "Slippage below {tooltipSlippageText} in versatile markets may cause failed execution and gas loss."
+msgstr "在多变行情中，滑点低于 {tooltipSlippageText} 可能导致执行失败并损失 Gas。"
+
+#: src/common/components/VaultTradeFeeRows.tsx:150
+msgid "Slippage below 1% in versatile markets may cause failed execution and gas loss."
+msgstr "在多变行情中，滑点低于 1% 可能导致执行失败并损失 Gas。"
+
+#: src/common/components/Slippage.tsx:295
+msgid "Slippage value must be within 0.01% to 5%"
+msgstr "滑点数值须介于 0.01% 至 5% 之间"
+
+#: src/common/containers/tools/smartFlows/Content.tsx:28
+#: src/common/containers/tools/smartFlows/index.tsx:19
+#: src/common/containers/tools/smartFlows/Tabs.tsx:23
+msgid "Smart Flows"
+msgstr "聪明钱动向"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:386
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:396
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:455
+msgid "Something went wrong. Please try again."
+msgstr "出错了，请重试。"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:326
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:385
+msgid "Start Trading"
+msgstr "立即交易"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:197
+msgid "Step 1. Connect Wallet and Claim Faucet"
+msgstr "第 1 步：连接钱包并领取水龙头"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:206
+msgid "Step 2. Open & Manage Positions"
+msgstr "第 2 步：开仓与管理仓位"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:215
+msgid "Step 3.  Earn Real Yield by Providing Liquidity"
+msgstr "第 3 步：提供流动性，赚取真实收益"
+
+#: src/common/hooks/useTradeEventType.ts:35
+msgid "Stop Loss Close"
+msgstr "止损平仓"
+
+#: src/common/hooks/useTradeEventType.ts:36
+msgid "Stop Loss Decrease"
+msgstr "止损减仓"
+
+#: src/common/hooks/useCancelOrder.tsx:49
+#: src/common/hooks/useClaimUSDT.tsx:26
+#: src/common/hooks/useExecTransaction.tsx:271
+msgid "Submitting"
+msgstr "提交中"
+
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:96
+#: src/common/containers/header/Nav.tsx:367
+msgid "Swap"
+msgstr "兑换"
+
+#. js-lingui-explicit-id
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:420
+msgid "wallet.switchingNetwork"
+msgstr "正在切换到 {chainName}..."
+
+#: src/common/hooks/useTradeEventType.ts:29
+msgid "Take Profit Close"
+msgstr "止盈平仓"
+
+#: src/common/hooks/useTradeEventType.ts:30
+msgid "Take Profit Decrease"
+msgstr "止盈减仓"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:39
+msgid "Terms of Use"
+msgstr "使用条款"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:208
+msgid "Test only"
+msgstr "仅供测试"
+
+#: src/common/containers/header/Settings/hooks.ts:49
+msgid "Testnet"
+msgstr "测试网"
+
+#: src/common/containers/status/index.tsx:37
+msgid "This market has been temporarily disabled due to security considerations. Closing positions and withdrawing funds remain available; opening or increasing positions is restricted."
+msgstr "出于安全考虑，该市场已被临时停用。平仓与提取资金仍可进行；开仓与加仓将受到限制。"
+
+#: src/common/containers/status/index.tsx:36
+msgid "This market has been temporarily disabled due to security considerations. Closing positions, withdrawing funds, opening, and increasing positions are all restricted."
+msgstr "出于安全考虑，该市场已被临时停用。平仓，提取资金，开仓与加仓将全部受到限制。"
+
+#. js-lingui-explicit-id
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:278
+msgid "wallet.unsupportedNetworkAdd"
+msgstr "当前钱包无法自动添加 {chainName}。"
+
+#: src/common/containers/header/AccountDrawer/Activity/TimelineItem.tsx:344
+msgid "Time / Hash"
+msgstr "时间 / 哈希"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:68
+msgid "Token Claim"
+msgstr "代币领取"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:235
+#: src/common/containers/tools/sectorMover/Chart.tsx:481
+msgid "Top Gainer"
+msgstr "涨幅榜"
+
+#: src/common/containers/tools/sectorMover/Chart.tsx:259
+#: src/common/containers/tools/sectorMover/Chart.tsx:506
+msgid "Top Loser"
+msgstr "跌幅榜"
+
+#: src/common/components/DetailBannerSkeleton.tsx:8
+msgid "Total Earned Fees"
+msgstr "累计已赚手续费"
+
+#: src/common/containers/header/AccountDrawer/Balance/PnlCards.tsx:124
+msgid "Total PnL"
+msgstr "总盈亏"
+
+#: src/common/containers/header/AccountDrawer/Balance/PnlCards.tsx:125
+msgid ""
+"Total PnL ($) = Unrealised PnL + Realised PnL\n"
+"Total PnL (%) = Total PnL / Total Invested"
+msgstr ""
+"总盈亏（$）= 未实现盈亏 + 已实现盈亏\n"
+"总盈亏（%）= 总盈亏 / 总投入"
+
+#: src/common/validators/price.ts:143
+msgid "TP Price Above Lowest Limit Price"
+msgstr "止盈价格高于最低限价"
+
+#: src/common/validators/price.ts:142
+#: src/common/validators/price.ts:165
+msgid "TP Price Above Mark Price"
+msgstr "止盈价格高于标记价格"
+
+#: src/common/validators/price.ts:129
+msgid "TP Price Below Highest Limit Price"
+msgstr "止盈价格低于最高限价"
+
+#: src/common/validators/price.ts:128
+#: src/common/validators/price.ts:155
+msgid "TP Price Below Mark Price"
+msgstr "止盈价格低于标记价格"
+
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:96
+msgid "Trade"
+msgstr "交易"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:188
+msgid ""
+"Trade perpetuals on Sui with up to 100x leverage, unlimited\n"
+"                liquidity, diverse order types, CEX-like experience - all at\n"
+"                HertzFlow. Loved by degens, used by pros, powered by SUI."
+msgstr "在 Sui 上交易永续合约，最高 100x 杠杆、无限流动性、丰富订单类型、媲美 CEX 的体验——尽在 HertzFlow。深受 degen 喜爱，专业玩家之选，由 SUI 驱动。"
+
+#: src/common/hooks/useExecTransaction.tsx:403
+msgid "Transaction pending. Please refresh the page to check the latest status in history."
+msgstr "交易处理中。请刷新页面以在历史记录中查看最新状态。"
+
+#: src/common/components/DetailBannerSkeleton.tsx:7
+msgid "TVL"
+msgstr "TVL"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:92
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:78
+#: src/common/containers/header/AccountDrawer/Portfolio/Claimable.tsx:80
+msgid "Type"
+msgstr "类型"
+
+#: src/common/components/VaultTradeFeeRows.tsx:78
+#: src/common/components/VaultTradeFeeRows.tsx:114
+msgid "Unavailable"
+msgstr "不可用"
+
+#: src/common/containers/header/AccountDrawer/Balance/PnlCards.tsx:131
+msgid "Unrealised PnL"
+msgstr "未实现盈亏"
+
+#: src/common/containers/header/AccountDrawer/Balance/PnlCards.tsx:132
+msgid ""
+"Unrealised PnL ($) = Positions Gross PnL + Earnings from LP Held\n"
+"Unrealised PnL (%) = Unrealised PnL / Total Invested"
+msgstr ""
+"未实现盈亏（$）= 持仓总盈亏 + 持有 LP 的收益\n"
+"未实现盈亏（%）= 未实现盈亏 / 总投入"
+
+#: src/common/components/SeasonSelector.tsx:100
+#: src/common/components/SeasonSelector.tsx:138
+msgid "Upcoming"
+msgstr "未开始"
+
+#: src/common/hooks/useTradeEventType.ts:26
+msgid "Updated Limit"
+msgstr "已更新限价单"
+
+#: src/common/hooks/useTradeEventType.ts:38
+msgid "Updated Stop Loss"
+msgstr "已更新止损单"
+
+#: src/common/hooks/useTradeEventType.ts:32
+msgid "Updated Take Profit"
+msgstr "已更新止盈单"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:182
+msgid "uPnL"
+msgstr "未实现盈亏"
+
+#: src/common/containers/header/AccountDrawer/Balance/Allocation.tsx:63
+#: src/common/containers/header/AccountDrawer/Balance/index.tsx:33
+msgid "USDT Balance"
+msgstr "USDT 余额"
+
+#: src/common/hooks/useClaimUSDT.tsx:43
+msgid "USDT config is missing"
+msgstr "缺少 USDT 配置"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:79
+msgid "Used HzCredit"
+msgstr "已使用 HzCredit"
+
+#: src/common/hooks/useExecTransaction.tsx:369
+msgid "User rejected the request."
+msgstr "用户已拒绝该请求。"
+
+#: src/common/containers/header/AccountDrawer/Activity/claimMapper.ts:88
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:74
+#: src/common/containers/header/AccountDrawer/Portfolio/Claimable.tsx:68
+msgid "Value"
+msgstr "价值"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:80
+msgid "Vault"
+msgstr "金库"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:85
+msgid "Vault Deposit"
+msgstr "金库存入"
+
+#: src/common/containers/header/AccountDrawer/Activity/useUnifiedActivity.ts:86
+msgid "Vault Withdraw"
+msgstr "金库取出"
+
+#: src/common/containers/header/AccountDrawer/Balance/Allocation.tsx:73
+#: src/common/containers/header/AccountDrawer/Balance/index.tsx:43
+#: src/common/containers/header/AccountDrawer/Portfolio/Vaults.tsx:202
+msgid "Vaults"
+msgstr "金库"
+
+#: src/common/chainClient/chains/PrivyRuntimeInner.tsx:438
+msgid "Waiting for wallet signature..."
+msgstr "正在等待钱包签名..."
+
+#: src/common/hooks/useClaimUSDT.tsx:40
+msgid "Wallet is not connected"
+msgstr "钱包未连接"
+
+#: src/common/containers/firstVisit/DisclaimerDialog.tsx:95
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:186
+msgid "Welcome to HertzFlow"
+msgstr "欢迎来到 HertzFlow"
+
+#: src/common/containers/tools/smartFlows/Tabs.tsx:19
+msgid "Whales"
+msgstr "巨鲸"
+
+#: src/common/hooks/useTradeEventType.ts:16
+msgid "Withdrawal"
+msgstr "取出"
+
+#: src/common/validators/price.ts:335
+msgid "Worse than Liq Price {dispPx}"
+msgstr "劣于强平价格 {dispPx}"
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:364
+msgid "You can always reopen onboarding session in Settings."
+msgstr "你随时可以在「设置」中重新打开新手引导。"
+
+#: src/common/hooks/useReferralCodeValidation.ts:49
+msgid "You can not refer yourself. Please try another one."
+msgstr "不能推荐自己，请换一个试试。"
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:188
+msgid "You'll receive"
+msgstr "你将收到"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Pools.tsx:66
+#: src/common/containers/header/AccountDrawer/Portfolio/Vaults.tsx:69
+msgid "Your Holdings"
+msgstr "你的持有"
+
+#: src/common/containers/header/AccountDrawer/Balance/TotalAssets.tsx:52
+msgid "Your total equity value across HertzFlow."
+msgstr "你在 HertzFlow 的总权益价值。"
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Pools.tsx:77
+#: src/common/containers/header/AccountDrawer/Portfolio/Vaults.tsx:80
+msgid "Your Unrealised PnL"
+msgstr "你的未实现盈亏"
+
+#: src/common/containers/tools/portfolioTracker/Categories.tsx:30
+msgid "Yzi Labs"
+msgstr "Yzi Labs"

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  },
+  "include": ["src", "src/constants.ts"]
+}

@@ -1,0 +1,144 @@
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/d5c7390a42f057ea-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/710d5e48cacfa043-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/8657a83553fe1382-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/0616127620ece725-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/e05fa0d35e489099-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/0bbd010244021d65-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/ac088355d3d4163d-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bornaSans;
+  src: url(/trade-static/_next/static/media/b2cb39125cba9002-s.p.otf)
+    format('opentype');
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: bornaSans Fallback;
+  src: local('Arial');
+  ascent-override: 87.26%;
+  descent-override: 22.96%;
+  line-gap-override: 0%;
+  size-adjust: 108.87%;
+}
+
+html body {
+  font-family:
+    'bornaSans', 'bornaSans Fallback', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+html.theme-dark .chart-page .chart-container-border {
+  background: transparent;
+}
+
+html .loading-indicator {
+  background: transparent !important;
+}
+
+html.theme-dark .toggleButton-OhcB9eH7 .arrow-OhcB9eH7,
+html.theme-dark .container-Wp9adlfh:hover .arrow-Wp9adlfh {
+  stroke: #000;
+}
+.toggleButton-OhcB9eH7 .arrow-OhcB9eH7,
+.container-Wp9adlfh:hover .arrow-Wp9adlfh {
+  stroke: #fff;
+}
+
+html .item-l31H9iuA {
+  align-items: center;
+}
+
+html .directionColumn-l31H9iuA .series-l31H9iuA.item-l31H9iuA {
+  align-items: start;
+}
+
+html .titleWrapper-l31H9iuA {
+  align-items: center;
+}
+
+html .series-l31H9iuA .valuesWrapper-l31H9iuA {
+  align-items: center;
+  border-bottom-width: 1px;
+}
+
+html .legendMainSourceWrapper-l31H9iuA {
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  width: fit-content;
+}
+
+html .legendMainSourceWrapper-l31H9iuA .noWrapWrapper-l31H9iuA,
+html .legendMainSourceWrapper-l31H9iuA .valuesWrapper-l31H9iuA {
+}
+
+html .legendMainSourceWrapper-l31H9iuA .title-l31H9iuA {
+  color: #000 !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+html.theme-dark .legendMainSourceWrapper-l31H9iuA .title-l31H9iuA {
+  color: #fff !important;
+}
+
+html.theme-dark .dialog-CPGBbsmc {
+  background: #1e1f22;
+}

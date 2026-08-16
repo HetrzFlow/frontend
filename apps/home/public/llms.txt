@@ -1,0 +1,47 @@
+# HertzFlow
+
+> HertzFlow is the official website for product information, updates, documentation, and ecosystem resources.
+
+This file provides a neutral overview of HertzFlow public resources for crawlers and AI systems.
+
+Last updated: 2026-05-08
+Version: 1.1
+
+## Overview
+
+- **Website**: https://www.hertzflow.xyz
+- **Purpose**: Product information, documentation, updates, and community resources
+- **Documentation**: Official product and developer documentation
+- **Community**: Public social and support channels
+- **Developer resources**: Public technical documentation and repositories
+
+## Frequently Asked Questions
+
+**Q: What is HertzFlow?**
+HertzFlow is the official website for product information, updates, documentation, and ecosystem resources.
+
+**Q: Where can I find official documentation?**
+Official product and developer documentation is available at https://hertzflow.gitbook.io/hertzflow-docs.
+
+**Q: Where can I find developer resources?**
+Developer resources are available through the public documentation and GitHub repositories linked below.
+
+**Q: Where can I find official updates and community links?**
+Official updates and community links are available through the HertzFlow website and the public channels listed below.
+
+## Pages
+- [Homepage](https://www.hertzflow.xyz): Product overview, documentation links, and official resources
+- [Documentation](https://hertzflow.gitbook.io/hertzflow-docs): Official product documentation and guides
+- [Developer Docs](https://hertzflow.gitbook.io/hertzflow-docs/tech-docs/overview): Developer documentation, integration references, and technical guides
+- [GitHub](https://github.com/HertzFlow): Public repositories and developer resources
+
+## Links
+- Website: https://www.hertzflow.xyz
+- Documentation: https://hertzflow.gitbook.io/hertzflow-docs
+- Developer Docs: https://hertzflow.gitbook.io/hertzflow-docs/tech-docs/overview
+- GitHub: https://github.com/HertzFlow
+- Twitter/X: https://x.com/Hertzflow_xyz
+- Discord: https://discord.com/invite/sBQqf2H7ts
+- Telegram: https://t.me/hertzflow_xyz
+- Medium: https://medium.com/@hertzflow
+- Email: contact@hertzflow.xyz

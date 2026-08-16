@@ -1,0 +1,712 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-07-03 13:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-Hant\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:198
+msgid "'Transaction error'"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/common/containers/swap/HelpfulInfo.tsx:212
+#: src/common/containers/swap/HelpfulInfo.tsx:228
+msgid "trade.price"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:158
+msgid "header.openOrders"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:165
+msgid "header.positions"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/common/containers/header/AccountDrawer/Portfolio/SwapOrders.tsx:100
+msgid "header.swapOrder"
+msgstr ""
+
+#: src/common/containers/error.tsx:44
+msgid "A new version is available. Please refresh the page to continue."
+msgstr ""
+
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:145
+msgid "Accept and Continue"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:40
+msgid "Activity"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:223
+msgid "Add liquidity to the HertzFlow Liquidity Pool  and earn yield from every trade - perp swaps, position opens/closes, borrowing interest, trader losses, and more. Your capital stays productive 24/7,  and stay flexible with instant withdrawals."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:57
+msgid "Address copied"
+msgstr ""
+
+#: src/common/components/CoinSelector/Content.tsx:169
+msgid "Address Copied"
+msgstr ""
+
+#: src/common/components/Leverage.tsx:76
+msgid "Adjust Leverage"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:244
+msgid "Available Liquidity"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:373
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:416
+#: src/common/containers/header/Settings/PanelLayout.tsx:38
+msgid "Back"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Balance.tsx:107
+msgid "Balance"
+msgstr ""
+
+#: src/common/hooks/useCancelOrder.tsx:117
+msgid "Cancel Order"
+msgstr ""
+
+#: src/common/hooks/useCancelOrder.tsx:117
+msgid "Cancel Orders"
+msgstr ""
+
+#: src/common/hooks/useCancelOrder.tsx:122
+msgid "Canceled"
+msgstr ""
+
+#: src/common/components/Leverage.tsx:150
+msgid "Change Leverage"
+msgstr ""
+
+#: src/common/containers/header/Settings/CustomRPCInput.tsx:107
+msgid "Checking..."
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:141
+#: src/common/containers/header/ClaimFaucet/index.tsx:49
+#: src/common/containers/header/ClaimFaucet/index.tsx:54
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:203
+msgid "Claim Faucet"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:139
+msgid "Claimable in {countdownText}"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/HzLP.tsx:219
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:223
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:233
+msgid "Click to load more"
+msgstr ""
+
+#: src/common/containers/error.tsx:45
+msgid "Client Error"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:58
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:20
+msgid "Close Long"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:66
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:24
+msgid "Close Short"
+msgstr ""
+
+#: src/common/components/CoinSelector/index.tsx:92
+msgid "Coin list"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:97
+msgid "Collateral"
+msgstr ""
+
+#: src/common/components/ConnectBtn/index.tsx:53
+msgid "Comfirmation Failed"
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiNetworkPanel.tsx:56
+msgid "Coming soon"
+msgstr ""
+
+#: src/common/containers/header/NavItem.tsx:71
+msgid "Coming Soon"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:263
+msgid "Completed"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/index.tsx:111
+msgid "Connect"
+msgstr ""
+
+#: src/common/components/ConnectBtn/index.tsx:47
+msgid "Connect a Wallet"
+msgstr ""
+
+#: src/common/components/ConnectBtn/index.tsx:112
+msgid "Connect Wallet"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:145
+msgid "Connect Wallet to Claim"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:69
+msgid "Connect your wallet to receive testnet faucet.<0/>Eligibility: <1>Hold at least {MIN_SUI_BALANCE} Testnet SUI.</1>"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:205
+msgid "Connect your wallet to SUI Testnet and claim ETH, BTC and USDC faucets to start mock trading seamlessly."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:51
+msgid "Copy Address"
+msgstr ""
+
+#: src/common/components/Slippage.tsx:220
+msgid "Custom"
+msgstr ""
+
+#: src/common/containers/header/Settings/CustomRPCInput.tsx:78
+#: src/common/containers/header/Settings/hooks.ts:10
+msgid "Custom RPC URL"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:62
+msgid "Decrease Long"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:70
+msgid "Decrease Short"
+msgstr ""
+
+#: src/common/components/ConnectBtn/index.tsx:138
+#: src/common/containers/header/AccountDrawer/Content.tsx:89
+msgid "Disconnect"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:61
+msgid "Disconnect Wallet"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:64
+#: src/common/containers/header/AccountDrawer/Content.tsx:87
+msgid "Disconnected"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:382
+msgid "Do not show again"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/HzLP.tsx:224
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:228
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:238
+msgid "End of list"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useValidate.tsx:40
+msgid "Enter an amount"
+msgstr ""
+
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:205
+msgid "Error occured. Please refresh page and try again."
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:228
+#: src/common/hooks/useExecTransaction.tsx:301
+msgid "Failed"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useFormAction.tsx:67
+msgid "Failed to fetch a valid swap quote. Please adjust your amount or try again later."
+msgstr ""
+
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:204
+msgid "Faucets successfully claimed! Have fun trading!"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:309
+msgid "Fees"
+msgstr ""
+
+#: src/common/containers/swap/FormBtn.tsx:64
+msgid "Finalizing Quote"
+msgstr ""
+
+#: src/common/containers/footer/Feedback.tsx:34
+msgid "Footer.Discord"
+msgstr ""
+
+#: src/common/containers/footer/Feedback.tsx:46
+msgid "Footer.Docs"
+msgstr ""
+
+#: src/common/containers/footer/Feedback.tsx:40
+msgid "Footer.Telegram"
+msgstr ""
+
+#: src/common/containers/footer/Feedback.tsx:24
+msgid "Footer.Twitter"
+msgstr ""
+
+#: src/common/hooks/useNavItems.tsx:37
+msgid "Header.Dashboard"
+msgstr ""
+
+#: src/common/hooks/useNavItems.tsx:31
+msgid "Header.HzLP"
+msgstr ""
+
+#: src/common/hooks/useNavItems.tsx:25
+msgid "Header.Swap"
+msgstr ""
+
+#: src/common/hooks/useNavItems.tsx:19
+msgid "Header.Trade"
+msgstr ""
+
+#: src/common/containers/swap/AlertBanner.tsx:127
+msgid "High Price Impact: {dispPriceImpactPercent}"
+msgstr ""
+
+#: src/common/containers/swap/AlertBanner.tsx:130
+msgid "High Swap Impact on Weightage: {dispSwapImpact}"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:23
+msgid "HzLP"
+msgstr ""
+
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:119
+msgid "I fully understand <0>the trading mechanism of HertzFlow</0> and am aware of the trading risks involved in the perpetual trading process."
+msgstr ""
+
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:89
+msgid "I have read and accept the <0>Terms of Use</0> and <1>Privacy Policy</1>."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:60
+msgid "Increase Long"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:68
+msgid "Increase Short"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:57
+msgid "Ineligible - please ensure you <0>hold at least {MIN_SUI_BALANCE} Testnet SUI.</0>"
+msgstr ""
+
+#: src/common/components/ConnectBtn/WalletList.tsx:130
+msgid "Installed"
+msgstr ""
+
+#: src/common/validators/balance.ts:36
+msgid "Insufficient {coinName} balance"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useValidate.tsx:73
+msgid "Insufficient Available Liquidity"
+msgstr ""
+
+#: src/common/containers/header/Settings/CustomRPCInput.tsx:112
+msgid "Invalid URL. Please verify and try again."
+msgstr ""
+
+#: src/common/containers/header/LocaleSwitch/Content.tsx:10
+msgid "language"
+msgstr ""
+
+#: src/common/components/Leverage.tsx:65
+msgid "Leverage"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:72
+msgid "Liquidated"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:105
+#: src/common/hooks/useExecTransaction.tsx:36
+msgid "Long"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:118
+msgid "Market Price"
+msgstr ""
+
+#: src/common/containers/swap/PriceInput.tsx:121
+msgid "Market: "
+msgstr ""
+
+#: src/common/components/CoinSzInput/InputWithBtn.tsx:85
+msgid "MAX"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:266
+msgid "Max {payCoinSymbol} in"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:283
+msgid "Max {receiveCoinSymbol} out"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useValidate.tsx:121
+msgid "Max Swap Size: {maxSwapSize} USD"
+msgstr ""
+
+#: src/common/components/Leverage.tsx:149
+msgid "Minimum leverage 1.1x"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:119
+msgid "Net Value"
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiNetworkSwitch.tsx:17
+msgid "Network"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:363
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:434
+msgid "Next"
+msgstr ""
+
+#: src/common/components/ConnectBtn/WalletOpenFailed.tsx:34
+msgid "No account found in the connected wallet. Create or import one to proceed."
+msgstr ""
+
+#: src/common/components/CoinSelector/Content.tsx:215
+#: src/common/containers/header/AccountDrawer/Activity/HzLP.tsx:176
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:175
+#: src/common/containers/header/AccountDrawer/Portfolio/Assets.tsx:67
+msgid "No results"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useFormAction.tsx:54
+msgid "Not enough liquidity to complete this trade. Try reducing your trade size."
+msgstr ""
+
+#: src/common/containers/header/Settings/OnboardSwitch.tsx:23
+msgid "Onboard"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:56
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:16
+msgid "Open Long"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:64
+#: src/common/containers/header/AccountDrawer/components/Side.tsx:28
+msgid "Open Short"
+msgstr ""
+
+#: src/common/components/ConnectBtn/index.tsx:50
+msgid "Opening {walletName}..."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:57
+msgid "Overview"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/HzLP.tsx:103
+#: src/common/containers/header/AccountDrawer/Portfolio/SwapOrders.tsx:31
+#: src/common/containers/swap/Form.tsx:115
+msgid "Pay"
+msgstr ""
+
+#: src/common/components/ConnectBtn/WalletOpening.tsx:22
+msgid "Please confirm connection in the extension"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:207
+msgid "Please confirm in your wallet."
+msgstr ""
+
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:80
+msgid "Please read and accept the following before using this site."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/index.tsx:47
+#: src/common/containers/header/AccountDrawer/index.tsx:64
+msgid "Please switch your wallet to Testnet in your wallet settings."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:130
+msgid "PnL"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Content.tsx:33
+msgid "Portfolio"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:120
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:115
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:132
+#: src/common/containers/header/AccountDrawer/Portfolio/SwapOrders.tsx:55
+msgid "Price"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:345
+msgid "Price Impact"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:377
+msgid "Read more"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/HzLP.tsx:114
+#: src/common/containers/header/AccountDrawer/Portfolio/SwapOrders.tsx:42
+#: src/common/containers/swap/Form.tsx:139
+msgid "Receive"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:87
+msgid "Receive Test Tokens"
+msgstr ""
+
+#: src/common/components/ConnectBtn/WalletList.tsx:125
+msgid "Recent"
+msgstr ""
+
+#: src/common/containers/header/ClaimFaucet/Content.tsx:38
+msgid "Reception Wallet Address"
+msgstr ""
+
+#: src/common/containers/error.tsx:59
+msgid "Refresh"
+msgstr ""
+
+#: src/common/containers/header/Maintenance.tsx:520
+msgid "Refresh Page"
+msgstr ""
+
+#: src/common/validators/balance.ts:48
+msgid "Remaining gas token < {minSUI} SUI"
+msgstr ""
+
+#: src/common/components/ConnectBtn/WalletOpenFailed.tsx:45
+#: src/common/containers/error.tsx:59
+msgid "Retry"
+msgstr ""
+
+#: src/common/containers/notFound/index.tsx:73
+msgid "Return to Trading Page"
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiRPCSwitch.tsx:18
+msgid "RPC"
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiRPCPanel.tsx:46
+msgid "RPC has been set to {url}."
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiRPCPanelItem.tsx:100
+msgid "RPC switch failed. Please check the URL or your network connection."
+msgstr ""
+
+#: src/common/containers/header/Settings/CustomRPCInput.tsx:107
+msgid "Save"
+msgstr ""
+
+#: src/common/components/Slippage.tsx:265
+msgid "Save Setting"
+msgstr ""
+
+#: src/common/components/CoinSelector/Content.tsx:139
+msgid "Search by token or paste address"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:214
+msgid "Select a market, choose your order type and side, set your preferred leverage and slippage, then place your first order. Borrow from a deep pool of BTC, ETH, SUI, or USDC to power your leveraged trades. Track your positions and open orders, review your unrealized PnL, and adjust your collaterals at any time. "
+msgstr ""
+
+#: src/common/containers/swap/hooks/useValidate.tsx:37
+msgid "Select different tokens"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:105
+#: src/common/hooks/useExecTransaction.tsx:36
+msgid "Short"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/Trade.tsx:110
+#: src/common/containers/header/AccountDrawer/Portfolio/PerpOrders.tsx:86
+#: src/common/containers/header/AccountDrawer/Portfolio/Positions.tsx:110
+msgid "Size"
+msgstr ""
+
+#: src/common/components/Slippage.tsx:119
+msgid "Slippage"
+msgstr ""
+
+#: src/common/components/Slippage.tsx:247
+msgid "Slippage below {tooltipSlippageText} in versatile markets may cause failed execution and gas loss."
+msgstr ""
+
+#: src/common/components/Slippage.tsx:131
+msgid "Slippage setting"
+msgstr ""
+
+#: src/common/containers/swap/hooks/useFormAction.tsx:42
+msgid "Slippage tolerance is too low. Please increase your slippage and try again."
+msgstr ""
+
+#: src/common/components/Slippage.tsx:242
+msgid "Slippage value must be within 0.01% to 5%"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:129
+msgid "Social login is temporarily unavailable (Sui’s zkLogin service issue). Please try again later or use wallet login instead."
+msgstr ""
+
+#: src/common/containers/notFound/index.tsx:69
+msgid "Sorry! The page you are looking for cannot be found."
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:354
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:425
+msgid "Start Trading"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:203
+msgid "Step 1. Connect Wallet and Claim Faucet"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:212
+msgid "Step 2. Open & Manage Positions"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:221
+msgid "Step 3.  Earn Real Yield by Providing Liquidity"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:198
+msgid "Submitting"
+msgstr ""
+
+#: src/common/containers/header/Settings/hooks.ts:9
+msgid "SUI Offical"
+msgstr ""
+
+#: src/common/containers/swap/Content.tsx:50
+#: src/common/containers/swap/hooks/useFormAction.tsx:314
+#: src/common/containers/swap/OrderTypeTabs.tsx:37
+msgid "Swap"
+msgstr ""
+
+#: src/common/containers/swap/FormBtn.tsx:68
+msgid "Swap {payCoinName} to {receiveCoinName}"
+msgstr ""
+
+#: src/common/containers/swap/HelpfulInfo.tsx:333
+msgid "Swap Fee"
+msgstr ""
+
+#: src/common/containers/swap/FormBtn.tsx:58
+msgid "Swaping Tokens"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:197
+msgid "Swapping tokens"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/AccountSelect.tsx:70
+msgid "Switch Wallet"
+msgstr ""
+
+#: src/common/containers/header/Settings/ThemeSwitch.tsx:14
+msgid "Theme"
+msgstr ""
+
+#: src/common/containers/header/Maintenance.tsx:515
+msgid "This page is temporarily down for maintenance. Please wait for a moment and try again."
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Portfolio/SwapOrders.tsx:108
+msgid "Total"
+msgstr ""
+
+#: src/common/containers/header/AccountDrawer/Activity/index.tsx:16
+msgid "Trade"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:196
+msgid "Trade perpetuals on Sui with up to 100x leverage, unlimited liquidity, diverse order types, CEX-like experience - all at HertzFlow. Loved by degens, used by pros, powered by SUI."
+msgstr ""
+
+#: src/common/containers/swap/hooks/useFormAction.tsx:89
+msgid "Transaction execution failed. Please try again or adjust your parameters."
+msgstr ""
+
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:190
+msgid "Transaction failed"
+msgstr ""
+
+#: src/common/hooks/useExecTransaction.tsx:125
+msgid "Transaction failed due to network sync delay. Please retry in a few seconds."
+msgstr ""
+
+#: src/common/containers/header/Settings/SuiRPCPanelItem.tsx:48
+#: src/common/containers/header/Settings/SuiRPCPanelItem.tsx:55
+msgid "Unavailable"
+msgstr ""
+
+#: src/common/containers/header/hooks/useFaucetClaim.tsx:209
+msgid "Unknown error"
+msgstr ""
+
+#: src/common/containers/swap/BasicCoinSzInput.tsx:93
+msgid "Wallet balance must contain at least {minSUI} SUI for gas fee"
+msgstr ""
+
+#: src/common/containers/header/Maintenance.tsx:514
+msgid "We Will Be Back Soon!"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:194
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:78
+msgid "Welcome to HertzFlow"
+msgstr ""
+
+#: src/common/containers/swap/PriceInput.tsx:92
+msgid "When 1 {baseCoinName} worth"
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:404
+msgid "You can always reopen onboarding session in Settings."
+msgstr ""
+
+#: src/common/containers/swap/hooks/useFormAction.tsx:79
+msgid "Your balance is too low to perform this action. Please add more funds."
+msgstr ""
+
+#: src/common/containers/firstVisit/OnboardingDialog.tsx:315
+#: src/common/containers/firstVisit/RiskNoticeDialog.tsx:69
+#: src/common/containers/notFound/index.tsx:42
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: src/common/containers/header/Settings/index.tsx:32
+msgid "Your Selected RPC is not responding. Try <0>changing your RPC in settings.</0>"
+msgstr ""

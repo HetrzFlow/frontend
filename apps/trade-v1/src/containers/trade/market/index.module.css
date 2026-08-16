@@ -1,0 +1,46 @@
+.scrollContainer {
+  position: relative;
+}
+
+.scrollContainer::before {
+  content: '';
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 80px;
+  left: 0;
+  top: 0;
+  background: transparent;
+  pointer-events: none;
+}
+
+.scrollContainer.frontScroll::before {
+  display: block;
+  background: linear-gradient(to right, var(--bg-1-2-mix), transparent);
+}
+
+.scrollContainer::after {
+  content: '';
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 80px;
+  right: 0;
+  top: 0;
+  background: transparent;
+  pointer-events: none;
+}
+
+.scrollContainer.backScroll::after {
+  display: block;
+  background: linear-gradient(to right, transparent, var(--bg-1-2-mix));
+}
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+:global(.dark) .scrollContainer.backScroll::after {
+  display: block;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in oklab, var(--bg-1-2-mix) 34%, #2c4a4a 66%)
+  );
+}

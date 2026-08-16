@@ -1,0 +1,42 @@
+import { ReactNode } from 'react';
+
+export interface CoinSzInputProps {
+  label: React.ReactNode;
+  value: string;
+  disabled?: boolean;
+  showBalance?: boolean;
+  showPercentActionsOnFocus?: boolean;
+  balance?: string;
+  balanceDisplay?: ReactNode;
+  balanceUnit?: string;
+  decimal?: number;
+  dispDecimal?: number;
+  calcDecimal?: number;
+  usdPx?: string;
+  usdDecimal?: number;
+  usdPosition?: 'inner' | 'extra';
+  allowInputWhenBalanceZero?: boolean;
+  className?: string;
+  labelClassName?: string;
+  inputWrapClassName?: string;
+  inputClassName?: string;
+  inputSuffix?: ReactNode;
+  placeholder?: string;
+  readOnly?: boolean;
+  extra?: ReactNode;
+  suffixClassName?: string;
+  percentActionsClassName?: string;
+  percentButtonClassName?: string;
+  showBalanceIcon?: boolean;
+  showBalanceMaxAction?: boolean;
+  isLoading?: boolean;
+  keepInputOnLoading?: boolean;
+  preservePrecision?: boolean;
+  max?: string | number;
+  maxLength?: number;
+  isLong?: boolean;
+  extraClassName?: string;
+  extraTextClassName?: string;
+  onValueChange?: (value: string) => void;
+  onPercentChange?: (value: string, action?: 'drag' | 'click') => void;
+}

@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-07-03 13:54+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-Hans\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/containers/footer/SocialLinks.tsx:34
+msgid "Footer.Discord"
+msgstr ""
+
+#: src/containers/footer/SocialLinks.tsx:50
+msgid "Footer.Docs"
+msgstr ""
+
+#: src/containers/footer/SocialLinks.tsx:40
+msgid "Footer.Telegram"
+msgstr ""
+
+#: src/containers/footer/SocialLinks.tsx:24
+msgid "Footer.Twitter"
+msgstr ""
+
+#: src/app/[[...locale]]/page.tsx:27
+msgid "HertzFlow | The world leverage engine"
+msgstr ""
+
+#: src/app/i18n.tsx:15
+msgid "HertzFlow | World Leverage Engine. Built For You to Win."
+msgstr ""
+
+#: src/containers/Maintenance.tsx:56
+msgid "Refresh Page"
+msgstr ""
+
+#: src/containers/Maintenance.tsx:51
+msgid "This page is temporarily down for maintenance. Please wait for a moment and try again."
+msgstr ""
+
+#: src/app/i18n.tsx:18
+msgid "Trade & Earn on any asset with leverage - 100% self-custodial."
+msgstr ""
+
+#: src/app/[[...locale]]/page.tsx:29
+msgid "Trade anything you want with a leverage from your wallet with confidence."
+msgstr ""
+
+#: src/containers/Maintenance.tsx:50
+msgid "We Will Be Back Soon!"
+msgstr ""
+
+#: src/containers/Maintenance.tsx:46
+msgid "Your browser does not support the video tag."
+msgstr ""

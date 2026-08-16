@@ -1,0 +1,33 @@
+{
+  "name": "@repo/configs",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./eslint": "./eslint/index.js",
+    "./stylelint": "./stylelint/index.js",
+    "./postcss": "./postcss/index.js",
+    "./prettier": "./prettier/index.js",
+    "./typescript/*": "./typescript/*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@next/eslint-plugin-next": "^16.2.6",
+    "@tailwindcss/postcss": "^4.0.9",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-lingui": "^0.11.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-turbo": "^2.4.4",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "stylelint": "^17.12.0",
+    "stylelint-config-standard": "^40.0.0",
+    "tailwindcss": "^4.0.9",
+    "typescript-eslint": "^8.39.1"
+  }
+}

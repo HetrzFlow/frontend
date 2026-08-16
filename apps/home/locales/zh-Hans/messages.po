@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-03-17 16:12+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-Hans\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/containers/footer/InfoBar.tsx:41
+#: src/containers/footer/InfoBar.tsx:123
+msgid "@2026 HertzFlow"
+msgstr "© 2026 HertzFlow"
+
+#: src/containers/productIntro/TradingExperience.tsx:93
+msgid "<0>Tailored</0> Trading Experience"
+msgstr "<0>为你定制</0>的交易体验"
+
+#: src/containers/productIntro/Oracle/index.tsx:21
+msgid "24/7 uninterrupted pricing secured by multi-oracle-validation, forming a robust risk control module."
+msgstr "多预言机交叉验证，7×24 不间断喂价，构筑稳健的风控防线。"
+
+#: src/containers/modular/Steps/Step2.tsx:100
+msgid "ABC Capital"
+msgstr "ABC Capital"
+
+#: src/containers/mediakit/index.tsx:28
+msgid "Access official HertzFlow brand resources, visual assets, and usage guidelines for media coverage, partnerships, campaigns, and community communications."
+msgstr "获取 HertzFlow 官方品牌资源、视觉素材与使用规范，适用于媒体报道、商务合作、营销活动及社区传播。"
+
+#: src/containers/modular/index.tsx:150
+msgid "Activate capital flywheel with HzLP liquidity composability."
+msgstr "以 HzLP 可组合流动性，启动你的资金飞轮。"
+
+#: src/containers/productIntro/TradingExperience.tsx:97
+msgid "Advanced trading terminal, zero-fee trading pairs, positive slippage, and loss protection. Give every trader an institutional-grade experience."
+msgstr "专业交易终端、零手续费交易对、正向滑点、亏损保护，一应俱全。让每一位交易者都享有机构级体验。"
+
+#: src/containers/productIntro/TradingExperience.tsx:108
+msgid "Amount"
+msgstr "数量"
+
+#: src/containers/productIntro/Oracle/index.tsx:17
+msgid "Anchored with <0>Real World Price</0>"
+msgstr "<0>真实价格</0>锚定"
+
+#: src/containers/banner/index.tsx:68
+msgid "Backed by"
+msgstr "投资方"
+
+#: src/containers/mediakit/index.tsx:86
+msgid "Brand Guidelines PDF"
+msgstr "品牌指南 PDF"
+
+#: src/containers/developer/index.tsx:26
+msgid "Build on our leverage engine with a robust SDK, deep liquidity, and real-time data. From seamless integration to launching custom platforms, our DevRel team is here to fuel your innovation."
+msgstr "基于我们的杠杆引擎构建你的应用 —— 强大 SDK、深度流动性、实时数据，全部就绪。从无缝集成到搭建自有平台，我们的开发者关系团队全程为你的创新提供支持。"
+
+#: src/containers/banner/index.tsx:81
+msgid "Built For You to Win."
+msgstr "生而为赢"
+
+#: src/containers/banner/index.tsx:22
+msgid "Built on"
+msgstr "构建于"
+
+#: src/components/ComingSoon.tsx:23
+#: src/components/ComingSoon.tsx:40
+msgid "Coming Soon"
+msgstr "即将上线"
+
+#: src/containers/modular/Steps/Step2.tsx:135
+msgid "Conservative"
+msgstr "稳健型"
+
+#: src/containers/footer/InfoBar.tsx:114
+msgid "Copy email address"
+msgstr "复制邮箱地址"
+
+#: src/containers/productIntro/TradeCategory/index.tsx:20
+msgid "Crypto, FX, commodities, stocks — or create a market in minutes and bootstrap liquidity for any oracle-supported asset."
+msgstr "加密货币、外汇、大宗商品、美股指数 —— 或者几分钟内自建市场，为任意预言机支持的资产一键引入流动性。"
+
+#: src/containers/banner/index.tsx:139
+msgid "Documentation"
+msgstr "产品文档"
+
+#: src/containers/mediakit/index.tsx:61
+msgid "Download"
+msgstr "下载"
+
+#: src/containers/mediakit/index.tsx:74
+msgid "Download approved HertzFlow logo files in multiple formats and variations for use across digital, print, partnership, and media materials."
+msgstr "下载官方授权的 HertzFlow Logo 文件，提供多种格式与版本，适用于数字、印刷、合作及媒体物料。"
+
+#: src/containers/mediakit/index.tsx:101
+msgid "Download ready-to-use branded visuals for social posts, campaign announcements, community updates, and other public-facing communications."
+msgstr "下载即取即用的品牌视觉素材，适用于社交发帖、活动公告、社区动态及各类对外传播。"
+
+#: src/containers/modular/Steps/Step1.tsx:121
+msgid "Earn"
+msgstr "赚币"
+
+#: src/containers/modular/Steps/Step3.tsx:60
+msgid "ETF-style liquidity vehicle for any users who wish to provide liquidity to a whole asset type"
+msgstr "ETF 式流动性载体，一键覆盖整个资产类别，适合想布局全品类的流动性提供者。"
+
+#: src/app/layout.tsx:37
+msgid "Explore HertzFlow and learn about its trading platform, documentation, and ecosystem."
+msgstr "探索 HertzFlow，了解其交易平台、文档与生态系统。"
+
+#: src/containers/developer/index.tsx:14
+msgid "For Humans and Agents"
+msgstr "为人类与 AI Agent 而建"
+
+#: src/containers/developer/index.tsx:37
+msgid "Github"
+msgstr "Github"
+
+#: src/app/layout.tsx:34
+msgid "HertzFlow | World Leverage Engine. Built For You to Win."
+msgstr "HertzFlow | 全球资产杠杆引擎 · 生而为赢"
+
+#: src/containers/mediakit/index.tsx:90
+msgid "HertzFlow brand guidelines preview"
+msgstr "HertzFlow 品牌指南预览"
+
+#: src/containers/modular/Steps/Step2.tsx:86
+msgid "HertzFlow empowers Curators to manage pool-level liquidity and enables third-party to create own strategies for optimized capital efficiency"
+msgstr "HertzFlow Curator 策略化管理流动性，并开放第三方自建策略，把资金效率优化到极致。"
+
+#: src/containers/mediakit/index.tsx:77
+msgid "HertzFlow logo preview"
+msgstr "HertzFlow Logo 预览"
+
+#: src/app/layout.tsx:40
+msgid "HertzFlow platform overview and product information."
+msgstr "HertzFlow 平台概览与产品信息。"
+
+#: src/containers/mediakit/index.tsx:104
+msgid "HertzFlow social media assets preview"
+msgstr "HertzFlow 社交媒体素材预览"
+
+#: src/containers/tradePage/TradePageImage.tsx:112
+msgid "HertzFlow trading interface — leverage trading terminal with real-time charts and position management"
+msgstr "HertzFlow 交易界面——集实时图表与仓位管理于一体的杠杆交易终端"
+
+#: src/containers/modular/Steps/Step2.tsx:153
+msgid "KODX Pools"
+msgstr "KODX Pools"
+
+#: src/components/LaunchAppBtn.tsx:21
+msgid "Launch App"
+msgstr "进入应用"
+
+#: src/containers/productIntro/Leverage/index.tsx:171
+msgid "Leverage"
+msgstr "杠杆"
+
+#: src/containers/mediakit/index.tsx:73
+msgid "Logos"
+msgstr "Logo"
+
+#: src/containers/productIntro/Leverage/LossProtect.tsx:50
+msgid "Loss Protection"
+msgstr "亏损保护"
+
+#: src/containers/modular/Steps/Step3.tsx:38
+msgid "Markets"
+msgstr "聚合市场"
+
+#: src/containers/footer/InfoBar.tsx:60
+#: src/containers/mediakit/index.tsx:27
+msgid "Media Kit"
+msgstr "媒体素材包"
+
+#: src/containers/modular/Steps/Step1.tsx:117
+msgid "One click earn via providing liquidity to all markets via vaults"
+msgstr "一键存入，向全市场提供流动性，躺着赚收益。"
+
+#: src/containers/modular/index.tsx:138
+msgid "Open Liquidity. Modular Yield."
+msgstr "开放流动性，模块化收益"
+
+#: src/containers/productIntro/Leverage/index.tsx:130
+msgid "Open Long"
+msgstr "开多"
+
+#: src/containers/modular/Steps/Step2.tsx:160
+msgid "Other Pools"
+msgstr "其他资金池"
+
+#: src/app/global-not-found.tsx:64
+msgid "Page Not Found | HertzFlow"
+msgstr "页面未找到 | HertzFlow"
+
+#: src/containers/productIntro/TradingExperience.tsx:107
+msgid "Pair"
+msgstr "交易对"
+
+#: src/containers/productIntro/Leverage/index.tsx:134
+msgid "PnL"
+msgstr "盈亏"
+
+#: src/containers/modular/Steps/Step4.tsx:49
+msgid "Pools"
+msgstr "隔离池"
+
+#: src/containers/productIntro/Leverage/index.tsx:161
+msgid "Position Size(USDT)"
+msgstr "仓位规模 (USDT)"
+
+#: src/containers/footer/InfoBar.tsx:55
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: src/containers/mediakit/index.tsx:87
+msgid "Review the core principles for using the HertzFlow brand consistently, including logo placement, color, typography, spacing, and visual applications."
+msgstr "了解一致使用 HertzFlow 品牌的核心规范，涵盖 Logo 摆放、色彩、字体、间距及视觉应用。"
+
+#: src/containers/developer/index.tsx:50
+msgid "Skills"
+msgstr "Skills"
+
+#: src/containers/mediakit/index.tsx:100
+msgid "Social Media Assets"
+msgstr "社交媒体素材"
+
+#: src/containers/banner/index.tsx:103
+#: src/containers/banner/index.tsx:121
+msgid "Start Trading"
+msgstr "立即交易"
+
+#: src/containers/footer/InfoBar.tsx:48
+msgid "Terms of Services"
+msgstr "服务条款"
+
+#: src/containers/modular/Steps/Step4.tsx:70
+msgid "The isolated pool of an asset market that any user can directly provide liquidity to"
+msgstr "单一资产市场的隔离流动性池，任何用户都能直接注入流动性。"
+
+#: src/app/global-not-found.tsx:66
+msgid "The page you are looking for cannot be found."
+msgstr "找不到你要访问的页面。"
+
+#: src/containers/banner/index.tsx:87
+msgid "Trade & Earn on any asset with leverage - 100% self-custodial."
+msgstr "任意资产，杠杆交易与赚币一站搞定 —— 资产 100% 自托管，私钥永远在你手里。"
+
+#: src/containers/productIntro/TradeCategory/index.tsx:16
+msgid "Trade Literally <0>Anything</0>"
+msgstr "<0>万物</0>皆可交易"
+
+#: src/containers/productIntro/index.tsx:17
+msgid "Trade The World Your Way"
+msgstr "交易世界，随你掌控"
+
+#: src/containers/productIntro/Leverage/index.tsx:117
+msgid "Unlock powerful leverage to maximize capital efficiency — every ripple on Earth could become your next great success."
+msgstr "释放杠杆威力，把资金效率拉满 —— 地球上的每一次波动，都可能是你的下一笔大赢。"
+
+#: src/containers/productIntro/Leverage/index.tsx:113
+msgid "Up To <0>200x</0> Leverage"
+msgstr "最高 <0>200x</0> 杠杆"
+
+#: src/containers/modular/Steps/Step2.tsx:146
+msgid "US Stock Big 7 Market"
+msgstr "美股七巨头市场"
+
+#: src/containers/modular/Steps/Step2.tsx:91
+msgid "US Stock Strategy"
+msgstr "美股策略"
+
+#: src/containers/modular/Steps/Step1.tsx:97
+msgid "Vault from HertzFlow"
+msgstr "HertzFlow 金库"
+
+#: src/containers/modular/Steps/Step2.tsx:64
+msgid "Vaults from Curators"
+msgstr "策略资金池"
+
+#: src/containers/banner/index.tsx:79
+msgid "World Leverage Engine."
+msgstr "全球资产杠杆引擎"
+
+#: src/components/BannerVideo.tsx:40
+#: src/containers/homeBrandWordmark/index.tsx:22
+#: src/containers/modular/Steps/Step3.tsx:81
+msgid "Your browser does not support the video tag."
+msgstr "你的浏览器不支持视频播放。"

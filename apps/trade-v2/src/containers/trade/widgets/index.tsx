@@ -1,0 +1,52 @@
+import { FC, useState } from 'react';
+import { useLingui } from '@lingui/react/macro';
+import {
+  ChevronDownIcon,
+  cn,
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from '@repo/ui';
+import Content from './Content';
+
+export interface WidgetsProps {
+  className?: string;
+}
+
+const Widgets: FC<WidgetsProps> = ({ className }) => {
+  const { t } = useLingui();
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen} modal>
+      <DialogTrigger
+        aria-label="select instrument"
+        className={cn(
+          'text-t-270 flex items-center justify-between text-xs font-medium',
+          className,
+        )}
+      >
+        <span>{t`Widgets`}</span>
+        <ChevronDownIcon
+          className={cn(
+            'transition-transform duration-300 max-md:ml-1.5',
+            open ? '-rotate-180' : '',
+          )}
+          size={16}
+        />
+      </DialogTrigger>
+
+      <DialogContent
+        className="text-xs"
+        closeClassName="hidden"
+        aria-describedby={undefined}
+      >
+        <DialogTitle className="hidden">{t`Widgets`}</DialogTitle>
+        <Content />
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+export default Widgets;

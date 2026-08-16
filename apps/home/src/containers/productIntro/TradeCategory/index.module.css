@@ -1,0 +1,19 @@
+.xLoopAnimation {
+  animation: x-loop-animation 6000ms linear infinite;
+}
+
+@media (width < 1024px) {
+  .xLoopAnimation {
+    animation: x-loop-animation 6000ms linear infinite;
+  }
+}
+
+@keyframes x-loop-animation {
+  from {
+    transform: translateX(12px);
+  }
+
+  to {
+    transform: translateX(-448px);
+  }
+}

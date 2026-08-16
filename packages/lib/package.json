@@ -1,0 +1,39 @@
+{
+  "name": "@repo/lib",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./calc": "./dist/calc.js",
+    "./format": "./dist/format.js",
+    "./formulas": "./dist/formulas.js",
+    "./queryClient": "./dist/queryClient.js",
+    "./ws": "./dist/ws/index.js",
+    "./rest": "./dist/rest/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/configs": "workspace:*",
+    "@repo/i18n": "workspace:*",
+    "@types/lodash-es": "^4.17.12"
+  },
+  "peerDependencies": {
+    "@lingui/core": "^5.2.0",
+    "@tanstack/react-query": "^5.67.1",
+    "bignumber.js": "^9.1.2",
+    "date-fns": "^4.1.0",
+    "@mysten/sui": "workspace:*",
+    "@mysten/suins": "workspace:*",
+    "react": "^19.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix --config ./eslint.config.js"
+  },
+  "dependencies": {
+    "lodash-es": "^4.18.1"
+  }
+}

@@ -1,0 +1,41 @@
+@keyframes clip-path-animation {
+  0% {
+    width: 12px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.progress {
+  animation: clip-path-animation cubic-bezier(0.55, 0.01, 1, 0.45) 2s forwards;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes loss-protect-rotate {
+  0% {
+    --angle: -25deg;
+
+    opacity: 0.5;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    --angle: 335deg;
+
+    opacity: 0;
+  }
+}
+
+.lossProtectRotate {
+  animation: loss-protect-rotate 2s cubic-bezier(0.55, 0.01, 1, 0.45) forwards;
+}

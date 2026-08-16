@@ -1,0 +1,11 @@
+{
+  "name": "goo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve public -l 3004",
+    "build": "echo 'Static site, no build needed'",
+    "lint": "echo 'No lint configured'",
+    "check-types": "echo 'No types to check'"
+  }
+}

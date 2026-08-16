@@ -1,0 +1,112 @@
+@font-face {
+  font-family: cerebriSans;
+  src: url(/trade-static/_next/static/media/73e449a9d2dd6f45-s.woff2)
+    format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: cerebriSans;
+  src: url(/trade-static/_next/static/media/8ff70a99598a266d-s.woff2)
+    format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: cerebriSans;
+  src: url(/trade-static/_next/static/media/3c07cc1f09718a91-s.woff2)
+    format('woff2');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: cerebriSans;
+  src: url(/trade-static/_next/static/media/a2af109f4f49a02a-s.woff2)
+    format('woff2');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: cerebriSans Fallback;
+  src: local('Arial');
+  ascent-override: 90.78%;
+  descent-override: 24.12%;
+  line-gap-override: 0%;
+  size-adjust: 103.65%;
+}
+
+html body {
+  font-family:
+    'bornaSans', 'bornaSans Fallback', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+html.theme-dark .chart-page .chart-container-border {
+  background: transparent;
+}
+
+html .loading-indicator {
+  background: transparent !important;
+}
+
+html.theme-dark .toggleButton-OhcB9eH7 .arrow-OhcB9eH7,
+html.theme-dark .container-Wp9adlfh:hover .arrow-Wp9adlfh {
+  stroke: #000;
+}
+.toggleButton-OhcB9eH7 .arrow-OhcB9eH7,
+.container-Wp9adlfh:hover .arrow-Wp9adlfh {
+  stroke: #fff;
+}
+
+html .item-l31H9iuA {
+  align-items: center;
+}
+
+html .directionColumn-l31H9iuA .series-l31H9iuA.item-l31H9iuA {
+  align-items: start;
+}
+
+html .titleWrapper-l31H9iuA {
+  align-items: center;
+}
+
+html .series-l31H9iuA .valuesWrapper-l31H9iuA {
+  align-items: center;
+  border-bottom-width: 1px;
+}
+
+html .legendMainSourceWrapper-l31H9iuA {
+  border-radius: 4px;
+  backdrop-filter: blur(4px);
+  width: fit-content;
+}
+
+html .legendMainSourceWrapper-l31H9iuA .noWrapWrapper-l31H9iuA,
+html .legendMainSourceWrapper-l31H9iuA .valuesWrapper-l31H9iuA {
+}
+
+html .legendMainSourceWrapper-l31H9iuA .title-l31H9iuA {
+  color: #000 !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+html.theme-dark .legendMainSourceWrapper-l31H9iuA .title-l31H9iuA {
+  color: #fff !important;
+}
+
+html.theme-dark .dialog-CPGBbsmc {
+  background: #1e1f22;
+}
+
+.price-axis__modeButtons_hidden {
+  visibility: visible;
+}

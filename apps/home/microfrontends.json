@@ -1,0 +1,64 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "version": "1",
+  "applications": {
+    "web-hub-home": {
+      "development": {
+        "fallback": "testnet.hertzflow.xyz",
+        "local": 3001
+      }
+    },
+    "web-hub-trade-v2": {
+      "assetPrefix": "trade-static",
+      "routing": [
+        {
+          "paths": [
+            "/trade",
+            "/trade/:path*",
+            "/:locale/trade",
+            "/:locale/trade/:path*",
+            "/pools",
+            "/pools/:path*",
+            "/:locale/pools",
+            "/:locale/pools/:path*",
+            "/vaults",
+            "/vaults/:path*",
+            "/:locale/vaults",
+            "/:locale/vaults/:path*",
+            "/dashboard",
+            "/dashboard/:path*",
+            "/:locale/dashboard",
+            "/:locale/dashboard/:path*",
+            "/merits",
+            "/merits/:path*",
+            "/:locale/merits",
+            "/referral",
+            "/referral/:path*",
+            "/:locale/referral",
+            "/:locale/referral/:path*",
+            "/credit",
+            "/credit/:path*",
+            "/:locale/credit",
+            "/:locale/credit/:path*",
+            "/leaderboard",
+            "/leaderboard/:path*",
+            "/:locale/leaderboard",
+            "/:locale/leaderboard/:path*",
+            "/ref",
+            "/ref/:path*",
+            "/:locale/ref",
+            "/:locale/ref/:path*",
+            "/s",
+            "/s/:path*",
+            "/api/og",
+            "/api/og/:path*",
+            "/trade-static/:path*"
+          ]
+        }
+      ],
+      "development": {
+        "local": 3002
+      }
+    }
+  }
+}

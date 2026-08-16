@@ -1,0 +1,10 @@
+{
+  "orderId": "0x9d5fbc7447457b337c4d6808cb62ee4dde5107ee6093ed986819470f0424fab9",
+  "orderKey": "0x4cfd34dc9d6d20e228c912ed292195b5864fff706ebb0930ced6f7ae3f484e2b",
+  "indexCoin": "8c73df029cb08f82e064b215b78a3b8996174d9c536074c0bef8504f9f1abf9f::btc::BTC",
+  "isLong": true,
+  "txDigest": "XShMXtWhUuxbe6j5nEP1rVBpVmmx6pVnrxVedzJNzMs",
+  "timestamp": 1754928666304,
+  "amount": "1000",
+  "triggerPrice": "500000000000000000"
+}

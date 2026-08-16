@@ -1,0 +1,41 @@
+{
+  "name": "@hertzflow/sdk",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --clean --dts --format esm",
+    "dev": "tsup src/index.ts --watch",
+    "lint": "eslint src/",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest --config jest.integration.config.ts",
+    "test:integration:watch": "jest --config jest.integration.config.ts --watch",
+    "test:unit": "jest --testPathIgnorePatterns=integration"
+  },
+  "dependencies": {
+    "@mysten/sui": "workspace:*",
+    "@noble/hashes": "^1.8.0",
+    "@types/bn.js": "^5.2.0",
+    "bignumber.js": "^9.1.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@jest/globals": "30.0.0-beta.3",
+    "@mysten/bcs": "workspace:*",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.9",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.35.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.10",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "5.8.2"
+  }
+}

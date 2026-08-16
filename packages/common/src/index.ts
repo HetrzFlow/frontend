@@ -1,0 +1,2 @@
+// assets
+export * from './assets';

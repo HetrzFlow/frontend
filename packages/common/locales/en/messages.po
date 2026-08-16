@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-10-22 11:48+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/containers/error.tsx:44
+msgid "A new version is available. Please refresh the page to continue."
+msgstr "A new version is available. Please refresh the page to continue."
+
+#: src/containers/error.tsx:45
+msgid "Client Error"
+msgstr "Client Error"
+
+#: src/components/Footer/SocialLinks.tsx:34
+msgid "Footer.Discord"
+msgstr "Discord"
+
+#: src/components/Footer/SocialLinks.tsx:50
+msgid "Footer.Docs"
+msgstr "Docs"
+
+#: src/components/Footer/SocialLinks.tsx:40
+msgid "Footer.Telegram"
+msgstr "Telegram"
+
+#: src/components/Footer/SocialLinks.tsx:24
+msgid "Footer.Twitter"
+msgstr "Twitter"
+
+#: src/hooks/useNavItems.tsx:83
+msgid "Header.Credit"
+msgstr "Credit"
+
+#: src/hooks/useNavItems.tsx:45
+msgid "Header.Dashboard"
+msgstr "Dashboard"
+
+#: src/hooks/useNavItems.tsx:69
+msgid "Header.Genesis"
+msgstr "Genesis"
+
+#: src/hooks/useNavItems.tsx:97
+msgid "Header.Launch"
+msgstr "Launch"
+
+#: src/hooks/useNavItems.tsx:90
+msgid "Header.Leaderboard"
+msgstr "Leaderboard"
+
+#: src/hooks/useNavItems.tsx:64
+msgid "Header.Merits"
+msgstr "Merits"
+
+#: src/hooks/useNavItems.tsx:50
+msgid "Header.Pools"
+msgstr "Pools"
+
+#: src/hooks/useNavItems.tsx:76
+msgid "Header.Referral"
+msgstr "Referral"
+
+#: src/hooks/useNavItems.tsx:38
+msgid "Header.Trade"
+msgstr "Trade"
+
+#: src/hooks/useNavItems.tsx:57
+msgid "Header.Vaults"
+msgstr "Vaults"
+
+#: src/components/LocaleSwitch.tsx:216
+#: src/components/LocaleSwitch.tsx:224
+msgid "language"
+msgstr "language"
+
+#: src/containers/error.tsx:59
+msgid "Refresh"
+msgstr "Refresh"
+
+#: src/containers/error.tsx:59
+msgid "Retry"
+msgstr "Retry"
+
+#: src/containers/notFound/index.tsx:94
+msgid "Return to Trading Page"
+msgstr "Return to Trading Page"
+
+#: src/containers/notFound/index.tsx:90
+msgid "Sorry! The page you are looking for cannot be found."
+msgstr "Sorry! The page you are looking for cannot be found."
+
+#: src/containers/notFound/index.tsx:66
+#: src/containers/notFound/index.tsx:85
+msgid "Your browser does not support the video tag."
+msgstr "Your browser does not support the video tag."

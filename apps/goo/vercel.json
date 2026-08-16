@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo ok",
+  "outputDirectory": "public"
+}

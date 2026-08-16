@@ -1,0 +1,51 @@
+'use client';
+
+import { useLingui } from '@lingui/react/macro';
+import { OnboardIcons } from '@repo/ui';
+import { useGlobalStore } from '../../../stores/globalStore';
+
+export const OnboardSwitch: React.FC = () => {
+  const { t } = useLingui();
+
+  const showOnboardingDialog = useGlobalStore(
+    (state) => state.showOnboardingDialog,
+  );
+  const onOnboardingDialogOpen = useGlobalStore(
+    (state) => state.onOnboardingDialogOpen,
+  );
+  const onOnboardingDialogClose = useGlobalStore(
+    (state) => state.onOnboardingDialogClose,
+  );
+
+  return (
+    <div className="flex items-center justify-between gap-2 p-2 pt-0">
+      <span className="text-t-350">{t`Onboard`}</span>
+      <div className="flex gap-1">
+        <div
+          className={`hover:text-t-1100 hover:bg-bg-5 flex size-7 cursor-pointer items-center justify-center rounded-lg hover:transition-[background] ${
+            showOnboardingDialog
+              ? 'bg-bg-3 text-t-1100'
+              : 'text-t-350 bg-transparent'
+          }`}
+          onClick={() => {
+            onOnboardingDialogOpen(true);
+          }}
+        >
+          <OnboardIcons.visible className="mx-auto" size={14} />
+        </div>{' '}
+        <div
+          className={`hover:text-t-1100 hover:bg-bg-5 flex size-7 cursor-pointer items-center justify-center rounded-lg hover:transition-[background] ${
+            !showOnboardingDialog
+              ? 'bg-bg-3 text-t-1100'
+              : 'text-t-350 bg-transparent'
+          }`}
+          onClick={() => {
+            onOnboardingDialogClose(true);
+          }}
+        >
+          <OnboardIcons.invisible className="mx-auto" size={14} />
+        </div>{' '}
+      </div>
+    </div>
+  );
+};

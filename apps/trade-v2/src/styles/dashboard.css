@@ -1,0 +1,55 @@
+:root:has(.dashboard-page) {
+  --color-dashboard-series-1: #00bfbf;
+  --color-dashboard-series-2: #7cd0d0;
+  --color-dashboard-series-3: #5b7cde;
+  --color-dashboard-series-4: #a0a9ff;
+  --color-dashboard-series-5: #816fef;
+  --color-dashboard-blue: #008383;
+  --color-dashboard-others: #cbdfe8;
+  --color-dashboard-cumulative: #ff8000;
+  --color-dashboard-positive: #32d695;
+  --color-dashboard-red: #c53444;
+  --color-dashboard-negative: #ff6b6b;
+}
+
+@keyframes dashboard-sparkline-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dashboard-sparkline-area-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.dashboard-sparkline-line {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: dashboard-sparkline-draw 1500ms cubic-bezier(0.22, 1, 0.36, 1)
+    forwards;
+}
+
+.dashboard-sparkline-area {
+  animation: dashboard-sparkline-area-in 1000ms ease-out 150ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dashboard-sparkline-line,
+  .dashboard-sparkline-area {
+    animation: none;
+  }
+
+  .dashboard-sparkline-line {
+    stroke-dashoffset: 0;
+  }
+}

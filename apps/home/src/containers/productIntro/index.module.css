@@ -1,0 +1,39 @@
+.xLoopAnimation {
+  animation: x-loop-animation 6000ms linear infinite;
+}
+
+@media (width < 1024px) {
+  .xLoopAnimation {
+    animation: x-loop-animation 12000ms linear infinite;
+  }
+}
+
+@keyframes x-loop-animation {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-300% - 48px));
+  }
+}
+
+.yLoopAnimation {
+  animation: y-loop-animation 3000ms linear infinite;
+}
+
+@media (width < 1024px) {
+  .yLoopAnimation {
+    animation: y-loop-animation 6000ms linear infinite;
+  }
+}
+
+@keyframes y-loop-animation {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-166.67%));
+  }
+}

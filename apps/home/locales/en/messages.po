@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-03-17 16:12+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/containers/footer/InfoBar.tsx:41
+#: src/containers/footer/InfoBar.tsx:123
+msgid "@2026 HertzFlow"
+msgstr "@2026 HertzFlow"
+
+#: src/containers/productIntro/TradingExperience.tsx:93
+msgid "<0>Tailored</0> Trading Experience"
+msgstr "<0>Tailored</0> Trading Experience"
+
+#: src/containers/productIntro/Oracle/index.tsx:21
+msgid "24/7 uninterrupted pricing secured by multi-oracle-validation, forming a robust risk control module."
+msgstr "24/7 uninterrupted pricing secured by multi-oracle-validation, forming a robust risk control module."
+
+#: src/containers/modular/Steps/Step2.tsx:100
+msgid "ABC Capital"
+msgstr "ABC Capital"
+
+#: src/containers/mediakit/index.tsx:28
+msgid "Access official HertzFlow brand resources, visual assets, and usage guidelines for media coverage, partnerships, campaigns, and community communications."
+msgstr "Access official HertzFlow brand resources, visual assets, and usage guidelines for media coverage, partnerships, campaigns, and community communications."
+
+#: src/containers/modular/index.tsx:150
+msgid "Activate capital flywheel with HzLP liquidity composability."
+msgstr "Activate capital flywheel with HzLP liquidity composability."
+
+#: src/containers/productIntro/TradingExperience.tsx:97
+msgid "Advanced trading terminal, zero-fee trading pairs, positive slippage, and loss protection. Give every trader an institutional-grade experience."
+msgstr "Advanced trading terminal, zero-fee trading pairs, positive slippage, and loss protection. Give every trader an institutional-grade experience."
+
+#: src/containers/productIntro/TradingExperience.tsx:108
+msgid "Amount"
+msgstr "Amount"
+
+#: src/containers/productIntro/Oracle/index.tsx:17
+msgid "Anchored with <0>Real World Price</0>"
+msgstr "Anchored with <0>Real World Price</0>"
+
+#: src/containers/banner/index.tsx:68
+msgid "Backed by"
+msgstr "Backed by"
+
+#: src/containers/mediakit/index.tsx:86
+msgid "Brand Guidelines PDF"
+msgstr "Brand Guidelines PDF"
+
+#: src/containers/developer/index.tsx:26
+msgid "Build on our leverage engine with a robust SDK, deep liquidity, and real-time data. From seamless integration to launching custom platforms, our DevRel team is here to fuel your innovation."
+msgstr "Build on our leverage engine with a robust SDK, deep liquidity, and real-time data. From seamless integration to launching custom platforms, our DevRel team is here to fuel your innovation."
+
+#: src/containers/banner/index.tsx:81
+msgid "Built For You to Win."
+msgstr "Built For You to Win."
+
+#: src/containers/banner/index.tsx:22
+msgid "Built on"
+msgstr "Built on"
+
+#: src/components/ComingSoon.tsx:23
+#: src/components/ComingSoon.tsx:40
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: src/containers/modular/Steps/Step2.tsx:135
+msgid "Conservative"
+msgstr "Conservative"
+
+#: src/containers/footer/InfoBar.tsx:114
+msgid "Copy email address"
+msgstr "Copy email address"
+
+#: src/containers/productIntro/TradeCategory/index.tsx:20
+msgid "Crypto, FX, commodities, stocks — or create a market in minutes and bootstrap liquidity for any oracle-supported asset."
+msgstr "Crypto, FX, commodities, stocks — or create a market in minutes and bootstrap liquidity for any oracle-supported asset."
+
+#: src/containers/banner/index.tsx:139
+msgid "Documentation"
+msgstr "Documentation"
+
+#: src/containers/mediakit/index.tsx:61
+msgid "Download"
+msgstr "Download"
+
+#: src/containers/mediakit/index.tsx:74
+msgid "Download approved HertzFlow logo files in multiple formats and variations for use across digital, print, partnership, and media materials."
+msgstr "Download approved HertzFlow logo files in multiple formats and variations for use across digital, print, partnership, and media materials."
+
+#: src/containers/mediakit/index.tsx:101
+msgid "Download ready-to-use branded visuals for social posts, campaign announcements, community updates, and other public-facing communications."
+msgstr "Download ready-to-use branded visuals for social posts, campaign announcements, community updates, and other public-facing communications."
+
+#: src/containers/modular/Steps/Step1.tsx:121
+msgid "Earn"
+msgstr "Earn"
+
+#: src/containers/modular/Steps/Step3.tsx:60
+msgid "ETF-style liquidity vehicle for any users who wish to provide liquidity to a whole asset type"
+msgstr "ETF-style liquidity vehicle for any users who wish to provide liquidity to a whole asset type"
+
+#: src/app/layout.tsx:37
+msgid "Explore HertzFlow and learn about its trading platform, documentation, and ecosystem."
+msgstr "Explore HertzFlow and learn about its trading platform, documentation, and ecosystem."
+
+#: src/containers/developer/index.tsx:14
+msgid "For Humans and Agents"
+msgstr "For Humans and Agents"
+
+#: src/containers/developer/index.tsx:37
+msgid "Github"
+msgstr "Github"
+
+#: src/app/layout.tsx:34
+msgid "HertzFlow | World Leverage Engine. Built For You to Win."
+msgstr "HertzFlow | World Leverage Engine. Built For You to Win."
+
+#: src/containers/mediakit/index.tsx:90
+msgid "HertzFlow brand guidelines preview"
+msgstr "HertzFlow brand guidelines preview"
+
+#: src/containers/modular/Steps/Step2.tsx:86
+msgid "HertzFlow empowers Curators to manage pool-level liquidity and enables third-party to create own strategies for optimized capital efficiency"
+msgstr "HertzFlow empowers Curators to manage pool-level liquidity and enables third-party to create own strategies for optimized capital efficiency"
+
+#: src/containers/mediakit/index.tsx:77
+msgid "HertzFlow logo preview"
+msgstr "HertzFlow logo preview"
+
+#: src/app/layout.tsx:40
+msgid "HertzFlow platform overview and product information."
+msgstr "HertzFlow platform overview and product information."
+
+#: src/containers/mediakit/index.tsx:104
+msgid "HertzFlow social media assets preview"
+msgstr "HertzFlow social media assets preview"
+
+#: src/containers/tradePage/TradePageImage.tsx:112
+msgid "HertzFlow trading interface — leverage trading terminal with real-time charts and position management"
+msgstr "HertzFlow trading interface — leverage trading terminal with real-time charts and position management"
+
+#: src/containers/modular/Steps/Step2.tsx:153
+msgid "KODX Pools"
+msgstr "KODX Pools"
+
+#: src/components/LaunchAppBtn.tsx:21
+msgid "Launch App"
+msgstr "Launch App"
+
+#: src/containers/productIntro/Leverage/index.tsx:171
+msgid "Leverage"
+msgstr "Leverage"
+
+#: src/containers/mediakit/index.tsx:73
+msgid "Logos"
+msgstr "Logos"
+
+#: src/containers/productIntro/Leverage/LossProtect.tsx:50
+msgid "Loss Protection"
+msgstr "Loss Protection"
+
+#: src/containers/modular/Steps/Step3.tsx:38
+msgid "Markets"
+msgstr "Markets"
+
+#: src/containers/footer/InfoBar.tsx:60
+#: src/containers/mediakit/index.tsx:27
+msgid "Media Kit"
+msgstr "Media Kit"
+
+#: src/containers/modular/Steps/Step1.tsx:117
+msgid "One click earn via providing liquidity to all markets via vaults"
+msgstr "One click earn via providing liquidity to all markets via vaults"
+
+#: src/containers/modular/index.tsx:138
+msgid "Open Liquidity. Modular Yield."
+msgstr "Open Liquidity. Modular Yield."
+
+#: src/containers/productIntro/Leverage/index.tsx:130
+msgid "Open Long"
+msgstr "Open Long"
+
+#: src/containers/modular/Steps/Step2.tsx:160
+msgid "Other Pools"
+msgstr "Other Pools"
+
+#: src/app/global-not-found.tsx:64
+msgid "Page Not Found | HertzFlow"
+msgstr "Page Not Found | HertzFlow"
+
+#: src/containers/productIntro/TradingExperience.tsx:107
+msgid "Pair"
+msgstr "Pair"
+
+#: src/containers/productIntro/Leverage/index.tsx:134
+msgid "PnL"
+msgstr "PnL"
+
+#: src/containers/modular/Steps/Step4.tsx:49
+msgid "Pools"
+msgstr "Pools"
+
+#: src/containers/productIntro/Leverage/index.tsx:161
+msgid "Position Size(USDT)"
+msgstr "Position Size(USDT)"
+
+#: src/containers/footer/InfoBar.tsx:55
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: src/containers/mediakit/index.tsx:87
+msgid "Review the core principles for using the HertzFlow brand consistently, including logo placement, color, typography, spacing, and visual applications."
+msgstr "Review the core principles for using the HertzFlow brand consistently, including logo placement, color, typography, spacing, and visual applications."
+
+#: src/containers/developer/index.tsx:50
+msgid "Skills"
+msgstr "Skills"
+
+#: src/containers/mediakit/index.tsx:100
+msgid "Social Media Assets"
+msgstr "Social Media Assets"
+
+#: src/containers/banner/index.tsx:103
+#: src/containers/banner/index.tsx:121
+msgid "Start Trading"
+msgstr "Start Trading"
+
+#: src/containers/footer/InfoBar.tsx:48
+msgid "Terms of Services"
+msgstr "Terms of Services"
+
+#: src/containers/modular/Steps/Step4.tsx:70
+msgid "The isolated pool of an asset market that any user can directly provide liquidity to"
+msgstr "The isolated pool of an asset market that any user can directly provide liquidity to"
+
+#: src/app/global-not-found.tsx:66
+msgid "The page you are looking for cannot be found."
+msgstr "The page you are looking for cannot be found."
+
+#: src/containers/banner/index.tsx:87
+msgid "Trade & Earn on any asset with leverage - 100% self-custodial."
+msgstr "Trade & Earn on any asset with leverage - 100% self-custodial."
+
+#: src/containers/productIntro/TradeCategory/index.tsx:16
+msgid "Trade Literally <0>Anything</0>"
+msgstr "Trade Literally <0>Anything</0>"
+
+#: src/containers/productIntro/index.tsx:17
+msgid "Trade The World Your Way"
+msgstr "Trade The World Your Way"
+
+#: src/containers/productIntro/Leverage/index.tsx:117
+msgid "Unlock powerful leverage to maximize capital efficiency — every ripple on Earth could become your next great success."
+msgstr "Unlock powerful leverage to maximize capital efficiency — every ripple on Earth could become your next great success."
+
+#: src/containers/productIntro/Leverage/index.tsx:113
+msgid "Up To <0>200x</0> Leverage"
+msgstr "Up To <0>200x</0> Leverage"
+
+#: src/containers/modular/Steps/Step2.tsx:146
+msgid "US Stock Big 7 Market"
+msgstr "US Stock Big 7 Market"
+
+#: src/containers/modular/Steps/Step2.tsx:91
+msgid "US Stock Strategy"
+msgstr "US Stock Strategy"
+
+#: src/containers/modular/Steps/Step1.tsx:97
+msgid "Vault from HertzFlow"
+msgstr "Vault from HertzFlow"
+
+#: src/containers/modular/Steps/Step2.tsx:64
+msgid "Vaults from Curators"
+msgstr "Vaults from Curators"
+
+#: src/containers/banner/index.tsx:79
+msgid "World Leverage Engine."
+msgstr "World Leverage Engine."
+
+#: src/components/BannerVideo.tsx:40
+#: src/containers/homeBrandWordmark/index.tsx:22
+#: src/containers/modular/Steps/Step3.tsx:81
+msgid "Your browser does not support the video tag."
+msgstr "Your browser does not support the video tag."

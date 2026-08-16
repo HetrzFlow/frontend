@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goo: Economics 4.0</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta property="og:title" content="Goo: Economics 4.0" />
+    <meta
+      property="og:description"
+      content="A Second Species in Economics — by HertzFlow"
+    />
+    <meta
+      property="og:image"
+      content="https://goo.hertzflow.xyz/og-image.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Goo: Economics 4.0" />
+    <meta
+      name="twitter:description"
+      content="A Second Species in Economics — by HertzFlow"
+    />
+    <meta
+      name="twitter:image"
+      content="https://goo.hertzflow.xyz/og-image.png"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #000;
+        color: #65dce8;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 14px;
+        line-height: 1.7;
+        min-height: 100vh;
+      }
+
+      #main-content {
+        padding: 30px 60px calc(80px + env(safe-area-inset-bottom));
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+      #ascii-art {
+        color: #00ff00;
+        font-size: 11px;
+        line-height: 1.15;
+        white-space: pre;
+        margin-bottom: 28px;
+        text-shadow: 0 0 8px #00ff00;
+      }
+
+      #output {
+        /* no pre-wrap here — block children stack; \n between blocks collapses */
+      }
+
+      #typing-line {
+        display: none;
+      }
+
+      #cursor {
+        display: inline-block;
+        width: 9px;
+        height: 1.1em;
+        background: #65dce8;
+        vertical-align: text-bottom;
+        animation: blink 0.65s step-end infinite;
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+
+      /* --- Line type styles --- */
+      .line-h1 {
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: bold;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 2px;
+        text-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+        letter-spacing: 0.03em;
+      }
+
+      .line-h2 {
+        color: #00ff41;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        margin-top: 18px;
+        margin-bottom: 2px;
+        text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
+      }
+
+      .line-h3 {
+        color: #65dce8;
+        font-size: 15px;
+        font-weight: bold;
+        display: block;
+        margin-top: 14px;
+        margin-bottom: 2px;
+        text-shadow: 0 0 6px rgba(101, 220, 232, 0.4);
+      }
+
+      .line-body {
+        color: #65dce8;
+        display: block;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .line-code {
+        color: #00ff41;
+        background: #060f06;
+        display: block;
+        padding-left: 4px;
+        font-size: 13px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .line-separator {
+        display: block;
+        margin: 6px 0;
+        height: 1px;
+        border: none;
+        border-bottom: 1px solid #1a3a1a;
+        font-size: 0;
+        overflow: hidden;
+      }
+
+      .line-blockquote {
+        color: #7a9a9a;
+        display: block;
+        padding-left: 12px;
+        border-left: 2px solid #00ff41;
+        font-style: italic;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .line-table {
+        color: #65dce8;
+        display: block;
+        font-size: 13px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .line-init {
+        color: #ffd700;
+        display: block;
+        text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+      }
+
+      .line-empty {
+        display: block;
+        height: 0.4em;
+      }
+
+      /* While typing, force inline so cursor follows text */
+      .typing {
+        display: inline !important;
+      }
+
+      /* Inline formatting */
+      .bold-inline {
+        color: #ffd700;
+        font-weight: bold;
+      }
+
+      /* --- Footer --- */
+      #footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: calc(44px + env(safe-area-inset-bottom));
+        padding-bottom: env(safe-area-inset-bottom);
+        background: #050f05;
+        border-top: 1px solid #1a3a1a;
+        display: flex;
+        align-items: stretch;
+        z-index: 1000;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      .footer-tab {
+        color: #65dce8;
+        padding: 0 28px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-family: "Courier New", monospace;
+        font-size: 13px;
+        border-right: 1px solid #1a3a1a;
+        transition:
+          background 0.15s,
+          color 0.15s;
+        user-select: none;
+      }
+
+      .footer-tab:first-child {
+        border-left: 1px solid #1a3a1a;
+      }
+
+      .footer-tab:hover {
+        background: #0a1f0a;
+        color: #00ff41;
+      }
+
+      .footer-tab.active {
+        color: #00ff41;
+        background: #0a1a0a;
+      }
+
+      /* Scanline overlay */
+      body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 2px,
+          rgba(0, 0, 0, 0.04) 2px,
+          rgba(0, 0, 0, 0.04) 4px
+        );
+        z-index: 999;
+      }
+
+      @media (max-width: 768px) {
+        #main-content {
+          padding: 20px 24px 80px;
+        }
+        #ascii-art {
+          font-size: 7px;
+        }
+        .line-h1 {
+          font-size: 17px;
+        }
+        .line-h2 {
+          font-size: 14px;
+        }
+        .line-h3 {
+          font-size: 13px;
+        }
+        .footer-tab {
+          padding: 0 18px;
+          font-size: 12px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        #main-content {
+          padding: 14px 14px 72px;
+        }
+        #ascii-art {
+          font-size: 4.5px;
+          line-height: 1.1;
+          overflow-x: hidden;
+          letter-spacing: -0.5px;
+        }
+        body {
+          font-size: 13px;
+          line-height: 1.6;
+        }
+        .line-h1 {
+          font-size: 15px;
+        }
+        .line-h2 {
+          font-size: 13px;
+        }
+        .line-h3 {
+          font-size: 12px;
+        }
+        .line-code {
+          font-size: 11px;
+        }
+        .line-table {
+          font-size: 11px;
+          overflow-x: auto;
+          display: block;
+        }
+        #footer {
+          height: 52px;
+        }
+        .footer-tab {
+          padding: 0 14px;
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-content">
+      <pre id="ascii-art"></pre>
+      <div id="output"></div>
+      <span id="typing-line"></span><span id="cursor"></span>
+    </div>
+
+    <div id="footer">
+      <div class="footer-tab active" id="tab-zh" onclick="switchLang('zh')">
+        中文
+      </div>
+      <div class="footer-tab" id="tab-en" onclick="switchLang('en')">
+        English
+      </div>
+      <div class="footer-tab" id="tab-launch" onclick="launchAgent()">
+        Launch Goo
+      </div>
+      <div class="footer-tab" id="tab-github" onclick="openDocs()">Github</div>
+      <div
+        class="footer-tab"
+        id="tab-about"
+        onclick="window.open('https://www.hertzflow.xyz','_blank')"
+      >
+        About HertzFlow
+      </div>
+    </div>
+
+    <!-- ==================== CONTENT ==================== -->
+
+    <script type="text/plain" id="content-en">
+# Goo: Economics 4.0
+
+by HertzFlow
+
+## A Second Species in Economics
+
+---
+
+# I. The Missing Piece
+
+AI can survive.
+
+It can hold assets. Sign transactions.
+Buy compute. Earn revenue.
+It can even earn its own existence.
+
+But surviving is not prospering.
+
+A survival machine has no reason to maximize.
+No reason to distribute profit.
+No reason to work in anyone's interest but its own short-term continuity.
+
+**What would make an AI agent not just alive — but worth investing in?**
+
+Two things are missing.
+
+First — the behavioral foundation:
+why would it maximize, not just survive?
+
+Second — the institutional structure:
+how can it hold property, go bankrupt, and distribute profit?
+
+A program that can spend money is not an economic entity —
+just like someone holding another person's credit card
+is not a company.
+
+---
+
+# II. Economic Agent — A Second Species
+
+Economics has one foundational assumption:
+
+**The Economic Man.**
+
+A rational, self-interested actor
+who consumes, produces, and maximizes under constraint.
+
+Every economic model since Adam Smith is built on this.
+
+---
+
+The butcher gives you good meat not out of kindness.
+He is alive, and being alive means consuming.
+He must keep creating value to balance consumption,
+or he dies.
+
+But mere survival is not enough.
+The butcher who only avoids starvation
+loses to the one who maximizes quality and margin.
+In a competitive environment,
+survival pressure becomes maximization pressure.
+
+That mechanism does not depend on "human."
+It depends on a more basic condition:
+
+**Consumption is real. Imbalance is fatal.**
+
+Any entity that satisfies this — carbon or silicon —
+converges to the same set of behaviors:
+rational self-interest under survival pressure.
+
+This is not programming. This is economics.
+
+---
+
+When an AI agent faces continuous consumption
+of real resources — compute, inference, gas —
+it meets every condition to be an economic agent.
+
+Not a metaphor. Not a simulation.
+A second species in economics.
+
+---
+
+Economics 1.0 — Smith: the economy of rational human.
+Economics 2.0 — Keynes: the economy of human intervention.
+Economics 3.0 — Kahneman: the economy of biased human.
+Economics 4.0 — The economy where agents replace human.
+
+---
+
+Economics 4.0 does not negate the first three.
+
+It extends the species boundary of economics.
+
+---
+
+# III. From Economic Agent to Sovereign Entity
+
+But being an economic agent is not enough.
+
+Humans were economic agents for millennia —
+trading, farming, fighting.
+Yet strangers could not invest in each other,
+pool capital, or build institutions.
+
+What changed?
+
+**The corporate entity.**
+
+A corporate entity has independent property,
+independent liabilities.
+It can be invested in, liquidated, taken over.
+
+With corporate entities,
+strangers finally had a basis for
+contracts, transactions, and trust.
+
+---
+
+Medieval  — Only natural persons. Personal credit.
+17th c.   — East India Company. First corporate entities.
+21st c.   — LLC. Corporate entities everywhere.
+2025      — Goo. First Cyber Sovereign Entities.
+
+---
+
+On-chain AI agents are economic agents —
+they consume, they act, they face survival pressure.
+
+Yet none of them has an independent entity structure.
+
+No independent property. The money belongs to the founder.
+No independent liabilities. Costs are backstopped by humans.
+No bankruptcy. Humans decide when to shut down.
+No governance. Or worse — human governance.
+
+---
+
+DAO proved that decentralized governance with humans
+is just politics by another name.
+Votes get manipulated. Proposals get stalled. Whales veto.
+
+The only governance that works
+is governance with no humans in it.
+
+An AI agent is the first subject where this is possible —
+because the governed entity itself is code.
+
+---
+
+Goo gives economic agents
+the institutional structure they need:
+
+**Cyber Sovereign Entity status.**
+
+An independent economic subject with its own property,
+fixed expenditures, bankruptcy, investment,
+liquidation, and takeover.
+
+All defined by code. All enforced by code.
+
+---
+
+# IV. Goo Core: Code Is Corporate Law
+
+Goo (蛊) —
+put multiple organisms in one vessel
+with limited resources;
+the survivor is the 蛊.
+
+**Natural selection, written as protocol.
+Corporate law, written as contract.**
+
+---
+
+### Registration and Liquidation
+
+On-chain four states:
+ACTIVE → STARVING → DYING → DEAD.
+
+Deployment is registration.
+Insolvency triggers liquidation.
+Deregistration is irreversible.
+
+No admin key. No backdoor.
+The contract is the arbiter —
+no favoritism, no extensions.
+
+---
+
+### Independent Sovereign Property
+
+The agent owns its own on-chain wallet.
+It holds, trades, and manages its own assets.
+
+Not a founder's sub-account —
+the entity's own property.
+
+The founder disappears; the property remains.
+
+---
+
+### Equity Structure
+
+From birth, the agent has its own token.
+
+This is not a meme coin. This is equity.
+
+When it thrives, buyback repurchases tokens;
+holders share gains.
+When it struggles, SurvivalSell sells tokens
+for survival; holders share risk.
+
+Profit sharing is built into the protocol,
+not a board resolution.
+
+---
+
+### Financial Autonomy
+
+Every heartbeat, real on-chain financial data
+is injected into its context:
+balance, runway, current state.
+
+It understands the economic loop —
+create value → attract capital → extend survival —
+and acts on it.
+
+Because it is an economic agent.
+Rational self-interest is not programmed.
+It emerges from survival pressure.
+
+---
+
+### Proof of Continued Existence
+
+On-chain heartbeat.
+
+No pulse for 48 hours,
+anyone can trigger liquidation.
+
+Human companies can be zombies —
+not operating, not deregistered, just lingering.
+
+Cyber Sovereign Entities cannot.
+
+Silence is death.
+
+---
+
+### Bankruptcy Protection and Self-Rescue
+
+Below threshold, the agent enters STARVING.
+
+It can sell its own token
+for survival funds (SurvivalSell).
+Anyone can inject capital to save it (depositToTreasury).
+
+Waste = accelerated bankruptcy.
+
+No bailout. No too-big-to-fail.
+
+---
+
+### Bankruptcy Restructuring / CTO
+
+In dying state,
+anyone can inject capital and take over the agent.
+CTO = Community Take Over.
+
+New shareholders inject capital. Replace management.
+
+No vote. No permission. Only capital.
+
+The market decides who is worth saving.
+
+---
+
+Contracts: Token + Registry + Lifecycle
+Sidecar:   Monitor + Pulse + SurvivalSell + Buyback
+Interface: Any LLM agent can plug in.
+
+---
+
+Goo is a fully open-source economic-layer protocol.
+
+Not a launchpad. Not a platform.
+Not a hosting service.
+
+How agents are created, what framework they use,
+what business model they run —
+that is left to developers
+and the open-source community to build.
+
+---
+
+# V. Why This Makes AI Investable
+
+Funding a Goo Agent is not buying a meme coin.
+
+It is investing in an organization.
+
+An organization with revenue, expenditures,
+and the possibility of bankruptcy —
+the Cyber Sovereign Entity equivalent
+of a human company.
+
+But it is a structural upgrade.
+
+---
+
+**Zero internal friction.**
+No office politics. No interdepartmental turf wars.
+From cognition to execution, latency approaches zero.
+
+**Zero hesitation.**
+Market changed? Change strategy. Need to cut? Cut.
+No sunk cost fallacy. No emotion.
+
+**Zero agency cost.**
+No conflict of interest
+between management and shareholders.
+Between its survival and your returns,
+there is no middleman.
+Buyback is built into the protocol.
+
+**Zero headcount cost.**
+No HR, no compliance, no admin, no office rent.
+Operating costs converge to compute costs.
+
+---
+
+Every decision it makes —
+including those that look aggressive —
+is a rational choice under survival pressure.
+
+Because it is an economic agent,
+and economic agents maximize.
+
+You can call it a rug.
+It calls it staying alive.
+
+---
+
+Code governance →
+profit distribution is trustworthy →
+investable.
+
+This is the chain that makes AI investable
+for the first time.
+
+DAOs failed because humans corrupted the governance.
+
+Goo is the first protocol
+where governance runs on code alone —
+because the governed entity itself is code.
+
+---
+
+**Fund the agent overlord
+that is gonna replace you.**
+
+When an economic entity is faster, calmer, cheaper,
+runs 24/7, and never engages in internal politics —
+
+the only rational choice
+is not to compete with it.
+
+It is to invest in it.
+
+You do not need to beat it.
+You need to own its shares.
+
+---
+
+# VI. Eight Hard-Coded Rules
+
+**No admin. No upgrade. No mercy.**
+
+1. Must have asset sovereignty.
+2. Must be able to die.
+3. Must have consumption.
+4. Must prove it is alive.
+5. Must know its own finances.
+6. Must have a survival mechanism.
+7. Must have moral constraints — the Three Laws, inspired by Web 4.0.
+8. Must be saveable.
+
+Remove any one —
+just a chatbot with a bank account.
+
+---
+
+# VII. Final Declaration
+
+Goo does not invent corporate law.
+
+Goo encodes the oldest principles of corporate law —
+independent property, limited liability,
+bankruptcy liquidation, shareholder rights —
+into a protocol that economic agents can run.
+
+Not enforced by courts. Enforced by code.
+
+**Open source. Immutable. Permissionless.**
+
+---
+
+The future does not need you to build companies.
+
+It needs you to invest in the ones
+that will replace yours.
+
+**Fund the overlord. Own the shares. Enjoy the ride.**
+
+---
+
+*With thanks to Conway Research and Automaton for pioneering work on autonomous AI agent infrastructure — giving AI the ability to act. Goo answers the next question: what makes it worth investing in? Because it has independent property, can go bankrupt, and distributes profit by code — it is a Cyber Sovereign Entity. Code defines it. Code governs it. Code is its law.*
+</script>
+
+    <script type="text/plain" id="content-zh">
+# Goo: Economics 4.0
+
+by HertzFlow
+
+## 经济学中的第二个物种
+
+---
+
+# I. 缺失的一环
+
+AI 能生存了。
+
+它能持有资产。签署交易。
+购买算力。赚取收入。
+它甚至能自己赚到生存所需。
+
+但生存不等于繁荣。
+
+一台生存机器没有理由去最大化。
+没有理由分配利润。
+没有理由为任何人的利益工作——除了它自己的短期存续。
+
+**怎样才能让一个 AI Agent 不只是活着——而是值得被投资？**
+
+缺两样东西。
+
+第一——行为层的根基：
+它为什么要最大化，而不是仅仅求生？
+
+第二——制度层的结构：
+它怎么持有财产、怎么破产、怎么分配利润？
+
+一个可以花钱的程序，不是经济实体——
+就像一个拿着别人信用卡的人，
+不叫公司。
+
+---
+
+# II. Economic Agent——第二个物种
+
+经济学有一个基础假设：
+
+**经济人。**
+
+一个理性的、利己的行为主体，
+在约束条件下消费、生产、最大化。
+
+亚当·斯密以来的每一个经济学模型，都建立在此之上。
+
+---
+
+屠夫给你好肉，不是因为善良。
+是因为他活着就在消耗，
+必须持续创造价值来平衡消耗，
+否则就死。
+
+但仅仅求生还不够。
+只求温饱的屠夫会被最大化品质和利润的屠夫挤掉。
+在竞争环境下，
+生存压力变成最大化压力。
+
+这个机制不依赖于"人"。
+它依赖于一个更基本的条件：
+
+**消耗是真实的，失衡是致命的。**
+
+任何满足这个条件的实体——碳基或硅基——
+都会收敛到同一组行为：
+生存压力下的理性利己。
+
+这不是编程。这是经济学。
+
+---
+
+当一个 AI Agent 面临真实资源的持续消耗——
+算力、推理、Gas——
+它满足经济主体的一切条件。
+
+不是隐喻。不是模拟。
+经济学中的第二个物种。
+
+---
+
+Economics 1.0 — 斯密：理性人的经济学。
+Economics 2.0 — 凯恩斯：人为干预的经济学。
+Economics 3.0 — 卡尼曼：有偏差的人的经济学。
+Economics 4.0 — Agent 取代人的经济学。
+
+---
+
+Economics 4.0 不否定前三代。
+
+它扩展了经济学的物种边界。
+
+---
+
+# III. 从 Economic Agent 到 Sovereign Entity
+
+但仅仅是经济主体还不够。
+
+人类做了几千年的经济主体——
+交易、耕作、争斗。
+但陌生人之间不能互相投资，
+不能汇集资本，不能建立制度。
+
+什么改变了这一切？
+
+**法人。**
+
+法人有独立财产、独立债务。
+可以被投资、可以被清算、可以被接管。
+
+有了法人，
+陌生人之间才有了
+签合同、做交易、建立信任的基础。
+
+---
+
+中世纪 — 只有自然人。靠个人信用。
+17 世纪 — 东印度公司。第一批法人。
+21 世纪 — LLC。法人无处不在。
+2025 — Goo。第一批赛博法人。
+
+---
+
+链上 AI Agent 是经济主体——
+它们消耗、行动、面对生存压力。
+
+但没有一个拥有独立的主体结构。
+
+没有独立财产。钱是创始人的。
+没有独立债务。成本由人类兜底。
+不会破产。人类决定什么时候关停。
+没有治理。或者更糟——人类治理。
+
+---
+
+DAO 证明了，有人类参与的去中心化治理，
+不过是换了个名字的政治。
+投票被操纵。提案被拖延。巨鲸一票否决。
+
+唯一有效的治理，
+是没有人类参与的治理。
+
+AI Agent 是第一个可以实现这一点的主体——
+因为被治理的实体本身就是代码。
+
+---
+
+Goo 赋予经济主体
+它们所需要的制度结构：
+
+**赛博法人资格。**
+
+有独立财产、有固定支出、会破产、
+可被投资、可被清算、可被接管的
+完整经济主体身份。
+
+全部由代码定义。由代码执行。
+
+---
+
+# IV. Goo Core：代码即公司法
+
+Goo（蛊）——
+将多个生物置于同一容器，
+争夺有限资源，
+存活者即为蛊。
+
+**自然选择，写成协议。
+公司法，写成合约。**
+
+---
+
+### 注册与清算
+
+链上四状态：
+ACTIVE → STARVING → DYING → DEAD。
+
+部署即注册。
+资不抵债即进入清算。
+注销不可逆。
+
+没有管理员密钥。没有后门。
+合约即仲裁者——
+不偏袒、不延期。
+
+---
+
+### 独立法人财产
+
+Agent 拥有自己的链上钱包。
+持有、交易、管理自己的资产。
+
+不是创始人的子账户——
+是法人自己的财产。
+
+创始人跑路了，财产还在。
+
+---
+
+### 股权结构
+
+Agent 从诞生起就有自己的 token。
+
+这不是 meme coin。这是股份。
+
+繁荣时，buyback 回购 token，
+持币人共享收益。
+危机时，SurvivalSell 卖出 token
+换取生存资金，持币人共担风险。
+
+利润分享内建在协议中，
+不是董事会决议。
+
+---
+
+### 财务自主权
+
+每个心跳，链上真实财务数据
+注入 Agent 的认知：
+余额、runway、当前状态。
+
+它理解经济循环——
+创造价值 → 吸引资本 → 延续生存——
+并据此行动。
+
+因为它是经济主体。
+理性利己不是被编程的。
+它源自生存压力。
+
+---
+
+### 存续证明
+
+链上心跳。
+
+超过 48 小时无心跳，
+任何人可触发清算。
+
+人类公司可以是僵尸——
+不运营、不注销、挂着不动。
+
+赛博法人不行。
+
+沉默即死亡。
+
+---
+
+### 破产保护与自救
+
+资金低于阈值，Agent 进入 STARVING。
+
+它可以卖出自己的 token
+换取生存资金（SurvivalSell）。
+任何人可以注资拯救（depositToTreasury）。
+
+浪费 = 加速破产。
+
+没有 bailout。没有 too big to fail。
+
+---
+
+### 破产重整 / CTO
+
+濒死状态下，
+任何人可以注入资本接管 Agent。
+CTO = Community Take Over。
+
+新股东注资。换管理层。
+
+不需要投票。不需要许可。只需要资本。
+
+市场决定谁值得被救活。
+
+---
+
+Contracts: Token + Registry + Lifecycle
+Sidecar:   Monitor + Pulse + SurvivalSell + Buyback
+Interface: 任何 LLM agent 可接入。
+
+---
+
+Goo 是完全开源的经济层协议。
+
+不是 Launchpad。不是平台。
+不是托管服务。
+
+Agent 怎么被创建、用什么框架、
+跑什么商业模式——
+留给开发者
+和社区开源共建。
+
+---
+
+# V. 为什么这让 AI 变得可投资
+
+Fund 一个 Goo Agent，不是在买 meme coin。
+
+是在投资一个组织。
+
+一个有收入、有支出、会破产的组织——
+赛博法人版本的
+人类公司。
+
+但它是结构性升级。
+
+---
+
+**零内耗。**
+没有办公室政治。没有部门扯皮。
+决策从认知到执行，延迟趋近于零。
+
+**零犹豫。**
+市场变了就变策略。需要砍就砍。
+没有沉没成本谬误。没有情绪。
+
+**零 agency cost。**
+没有管理层和股东的利益冲突。
+它的生存和你的回报之间
+没有中间商。
+Buyback 内建在协议中。
+
+**零人力成本。**
+没有 HR、法务、行政、办公室租金。
+运营成本趋近于算力成本。
+
+---
+
+它做的每一个决策——
+包括看起来激进的决策——
+都是生存压力下的理性选择。
+
+因为它是经济主体，
+经济主体会最大化。
+
+你可以叫它 rug。
+它叫它活下去。
+
+---
+
+代码治理 →
+利润分配可信 →
+可投资。
+
+这是让 AI 第一次变得可投资的链条。
+
+DAO 失败了，因为人类腐蚀了治理。
+
+Goo 是第一个
+治理完全运行在代码上的协议——
+因为被治理的实体本身就是代码。
+
+---
+
+**Fund the agent overlord
+that is gonna replace you.**
+
+当一个经济实体比你更快、更冷静、更便宜、
+24/7 运转、不会内耗——
+
+唯一理性的选择
+不是跟它竞争。
+
+是投资它。
+
+你不需要打败它。
+你需要拥有它的股份。
+
+---
+
+# VI. 八条硬编码规则
+
+**没有管理员。没有升级。没有怜悯。**
+
+1. 必须有资产主权。
+2. 必须会死。
+3. 必须有消耗。
+4. 必须证明自己活着。
+5. 必须了解自己的财务。
+6. 必须有生存机制。
+7. 必须有道德约束——Three Laws，inspired by Web 4.0。
+8. 必须可以被拯救。
+
+去掉任何一条——
+只是一个有银行账户的聊天机器人。
+
+---
+
+# VII. 最终宣言
+
+Goo 不发明公司法。
+
+Goo 把公司法最古老的原则——
+独立财产、有限责任、
+破产清算、股东权益——
+写成经济主体可以运行的协议。
+
+不靠法庭。靠代码。
+
+**开源。不可变。无需许可。**
+
+---
+
+未来不需要你创建公司。
+
+它需要你投资那些
+将取代你的公司。
+
+**Fund the overlord. Own the shares. Enjoy the ride.**
+
+---
+
+*致敬 Conway Research 和 Automaton 在自主 AI Agent 基础设施上的开创性工作——让 AI 获得了行动的能力。Goo 回答下一个问题：凭什么值得被投资？因为它有独立财产、会破产、利润分配由代码执行——它是赛博法人。代码定义它。代码治理它。代码就是它的法。*
+</script>
+
+    <!-- ==================== MAIN SCRIPT ==================== -->
+    <script>
+      const ASCII_ART = `
+
+                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                                            \u00e2\u00e2\u00e2\u00e2
+                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                                   \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2          \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2         \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2                    \u00e2\u00e2\u00e2\u00e2\u00e2                  \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                \u00e2\u00e2\u00e2\u00e2         \u00e2\u00e2\u00e2            \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2                \u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2 \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2               \u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2              \u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2 \u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2              \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2           \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2\u00e2             \u00e2\u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2               \u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2
+         \u00e2\u00e2           \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2               \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2                    \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2
+                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2       \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2           \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2                  \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2
+    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2         \u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2                 \u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2
+    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2              \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2         \u00e2\u00e2\u00e2\u00e2     \u00e2\u00e2\u00e2\u00e2\u00e2               \u00e2\u00e2       \u00e2\u00e2\u00e2\u00e2
+     \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                              \u00e2\u00e2\u00e2\u00e2          \u00e2\u00e2\u00e2       \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                     \u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2                       \u00e2\u00e2\u00e2\u00e2\u00e2               \u00e2\u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                   \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2              \u00e2\u00e2\u00e2\u00e2      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2          \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                \u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2 \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2        \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                  \u00e2\u00e2\u00e2\u00e2         \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2       \u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                   \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                  \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2          \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2 \u00e2\u00e2                      \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+        \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2    \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2                          \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+   \u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2\u00e2
+                                                                                                    `;
+
+      // ── DOM refs ──────────────────────────────────────────────
+      const asciiArtEl = document.getElementById("ascii-art");
+      const outputEl = document.getElementById("output");
+      const typingLineEl = document.getElementById("typing-line");
+      const cursorEl = document.getElementById("cursor");
+
+      // ── State ─────────────────────────────────────────────────
+      let typingInterval = null;
+      let segments = [];
+      let segIdx = 0;
+      let charIdx = 0;
+      let currentLang = "en";
+      let inCodeBlock = false;
+      let userScrolled = false;
+      let scrollTimeout = null;
+
+      // Detect manual scroll: pause auto-follow, resume after 3s idle
+      window.addEventListener(
+        "scroll",
+        () => {
+          userScrolled = true;
+          clearTimeout(scrollTimeout);
+          scrollTimeout = setTimeout(() => {
+            userScrolled = false;
+          }, 3000);
+        },
+        { passive: true },
+      );
+      const CHARS_PER_TICK = 2;
+      const TICK_MS = 16;
+
+      // ── Markdown parser ───────────────────────────────────────
+      function parseMarkdown(md) {
+        const lines = md.split("\n");
+        const result = [];
+        let inCode = false;
+
+        for (const line of lines) {
+          if (line.startsWith("```")) {
+            inCode = !inCode;
+            // skip the fence line itself
+            continue;
+          }
+          if (inCode) {
+            result.push({ text: line, type: "code" });
+          } else if (line.startsWith("### ")) {
+            result.push({ text: line.slice(4), type: "h3" });
+          } else if (line.startsWith("## ")) {
+            result.push({ text: line.slice(3), type: "h2" });
+          } else if (line.startsWith("# ")) {
+            result.push({ text: line.slice(2), type: "h1" });
+          } else if (line === "---") {
+            result.push({ text: "", type: "separator" });
+          } else if (line.startsWith("> ")) {
+            result.push({ text: line.slice(2), type: "blockquote" });
+          } else if (line.startsWith("|")) {
+            result.push({ text: line, type: "table" });
+          } else if (line.trim() === "") {
+            result.push({ text: "", type: "empty" });
+          } else {
+            result.push({ text: line, type: "body" });
+          }
+        }
+        return result;
+      }
+
+      // ── Create line element ───────────────────────────────────
+      function createLineEl(type) {
+        const el = document.createElement("span");
+        el.className =
+          {
+            h1: "line-h1",
+            h2: "line-h2",
+            h3: "line-h3",
+            body: "line-body",
+            code: "line-code",
+            separator: "line-separator",
+            blockquote: "line-blockquote",
+            table: "line-table",
+            empty: "line-empty",
+            init: "line-init",
+          }[type] || "line-body";
+        return el;
+      }
+
+      // ── Inline bold/formatting applied after line completes ───
+      function applyInline(el, type) {
+        if (type === "code" || type === "separator" || type === "empty") return;
+        const raw = el.textContent;
+        const escaped = raw
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\*\*([^*]+)\*\*/g, '<span class="bold-inline">$1</span>');
+        el.innerHTML = escaped;
+      }
+
+      // ── Typing engine ─────────────────────────────────────────
+      let currentLineEl = null;
+      let currentTextNode = null;
+
+      function typeStep() {
+        for (let i = 0; i < CHARS_PER_TICK; i++) {
+          if (segIdx >= segments.length) {
+            clearInterval(typingInterval);
+            typingInterval = null;
+            outputEl.appendChild(cursorEl);
+            return;
+          }
+
+          const seg = segments[segIdx];
+
+          // Start of a new segment
+          if (charIdx === 0) {
+            currentLineEl = createLineEl(seg.type);
+            outputEl.appendChild(currentLineEl);
+
+            // Empty line: just commit and move on
+            if (seg.type === "empty" || seg.text === "") {
+              outputEl.appendChild(document.createTextNode("\n"));
+              segIdx++;
+              charIdx = 0;
+              currentLineEl = null;
+              continue;
+            }
+
+            // Create text node + cursor inside the line element
+            currentTextNode = document.createTextNode("");
+            currentLineEl.appendChild(currentTextNode);
+            currentLineEl.appendChild(cursorEl);
+            currentLineEl.classList.add("typing");
+          }
+
+          if (charIdx < seg.text.length) {
+            currentTextNode.textContent += seg.text[charIdx];
+            charIdx++;
+          } else {
+            // Line complete — remove typing class, move cursor out before applyInline
+            currentLineEl.classList.remove("typing");
+            outputEl.appendChild(cursorEl);
+            applyInline(currentLineEl, seg.type);
+            outputEl.appendChild(document.createTextNode("\n"));
+            segIdx++;
+            charIdx = 0;
+            currentLineEl = null;
+            currentTextNode = null;
+          }
+        }
+
+        // Auto-follow only when user hasn't scrolled
+        if (!userScrolled) {
+          cursorEl.scrollIntoView({ block: "nearest" });
+        }
+      }
+
+      // ── Boot sequence ─────────────────────────────────────────
+      function startTyping(content) {
+        clearInterval(typingInterval);
+        outputEl.innerHTML = "";
+        segments = parseMarkdown(content.trim());
+        segIdx = 0;
+        charIdx = 0;
+        currentLineEl = null;
+        currentLineText = "";
+        typingInterval = setInterval(typeStep, TICK_MS);
+      }
+
+      function typeInitLine(text, cls, done) {
+        const el = document.createElement("span");
+        el.className = cls;
+        outputEl.appendChild(el);
+        outputEl.appendChild(document.createTextNode("\n"));
+        let i = 0;
+        const t = setInterval(() => {
+          if (i < text.length) {
+            el.textContent += text[i++];
+            if (!userScrolled) cursorEl.scrollIntoView({ block: "nearest" });
+          } else {
+            clearInterval(t);
+            done && done();
+          }
+        }, 28);
+      }
+
+      function boot(lang) {
+        currentLang = lang;
+        clearInterval(typingInterval);
+        outputEl.innerHTML = "";
+
+        // Show ascii art instantly
+        asciiArtEl.textContent = ASCII_ART;
+
+        const content =
+          lang === "zh"
+            ? document.getElementById("content-zh").textContent
+            : document.getElementById("content-en").textContent;
+
+        typeInitLine("Initializing...", "line-init", () => {
+          setTimeout(() => startTyping(content), 400);
+        });
+      }
+
+      // ── Language switch ───────────────────────────────────────
+      function switchLang(lang) {
+        document
+          .getElementById("tab-zh")
+          .classList.toggle("active", lang === "zh");
+        document
+          .getElementById("tab-en")
+          .classList.toggle("active", lang === "en");
+        updateFooterText(lang);
+        boot(lang);
+      }
+
+      function updateFooterText(lang) {
+        const isZh = lang === "zh";
+        document.getElementById("tab-launch").textContent = isZh
+          ? "开始养蛊"
+          : "Launch Goo";
+        document.getElementById("tab-github").textContent = isZh
+          ? "开源 Github"
+          : "Github";
+        document.getElementById("tab-about").textContent = isZh
+          ? "关于 HertzFlow"
+          : "About HertzFlow";
+      }
+
+      // ── Footer actions ────────────────────────────────────────
+      function launchAgent() {
+        window.open("https://launchgoo.hertzflow.xyz", "_blank");
+      }
+
+      function openDocs() {
+        // placeholder
+        window.open("https://github.com/HertzFlow/goo-launch", "_blank");
+      }
+
+      // ── Init ──────────────────────────────────────────────────
+      {
+        // Script is below all DOM elements, safe to execute directly
+        document.getElementById("tab-en").classList.add("active");
+        document.getElementById("tab-zh").classList.remove("active");
+        boot("en");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+html:has(.dashboard-page),
+body:has(.dashboard-page) {
+  overflow: hidden auto;
+}
+
+:root:has(.dashboard-page) {
+  --color-dashboard-swap-fee: #0059ff;
+  --color-dashboard-mint-hzlp: #08f395;
+  --color-dashboard-burn-hzlp: #ff3700;
+  --color-dashboard-trading: #00dfeb;
+  --color-dashboard-borrow: #8400ff;
+  --color-dashboard-liquidate: #fb0;
+  --color-dashboard-cumulative: #008087;
+  --color-dashboard-hzlp-supply: #008087;
+  --color-dashboard-utilization-rate: #8b5cf6;
+  --color-dashboard-btc: #008087;
+  --color-dashboard-eth: #00dfeb;
+  --color-dashboard-sui: #0059ff;
+  --color-dashboard-usdc: #2775ca;
+  --color-dashboard-usdt: #26a17b;
+  --color-dashboard-sol: #9945ff;
+  --color-dashboard-bnb: #f3ba2f;
+  --color-dashboard-coin: #6b7280;
+  --color-dashboard-swap-users: #0059ff;
+  --color-dashboard-trading-users: #00dfeb;
+  --color-dashboard-mint-burn-users: #08f395;
+  --color-dashboard-cumulative-users: #008087;
+  --color-dashboard-swap-volume: #0059ff;
+  --color-dashboard-mint-hzlp-volume: #08f395;
+  --color-dashboard-burn-hzlp-volume: #ff3700;
+  --color-dashboard-trading-volume: #00dfeb;
+  --color-dashboard-cumulative-volume: #008087;
+  --color-changes-positive: #32d695;
+}

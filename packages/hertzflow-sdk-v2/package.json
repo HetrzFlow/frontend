@@ -1,0 +1,102 @@
+{
+  "name": "@hertzflow/sdk-v2",
+  "version": "0.3.0",
+  "description": "TypeScript SDK for integrating with the HertzFlow protocol.",
+  "license": "MIT",
+  "homepage": "https://hertzflow.gitbook.io/hertzflow-docs/tech-docs/hertzflow-sdk",
+  "keywords": [
+    "hertzflow",
+    "sdk",
+    "defi",
+    "perpetuals",
+    "trading",
+    "viem",
+    "bnb-chain"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./build/cjs/src/index.js",
+  "module": "./build/esm/src/index.js",
+  "types": "./build/types/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/types/src/index.d.ts",
+      "node": "./build/cjs/src/index.js",
+      "import": "./build/esm/src/index.js",
+      "require": "./build/cjs/src/index.js",
+      "default": "./build/cjs/src/index.js"
+    },
+    "./configs/*": {
+      "types": "./build/types/src/configs/*.d.ts",
+      "node": "./build/cjs/src/configs/*.js",
+      "import": "./build/esm/src/configs/*.js",
+      "require": "./build/cjs/src/configs/*.js",
+      "default": "./build/cjs/src/configs/*.js"
+    },
+    "./abis/*": {
+      "types": "./build/types/src/abis/*.d.ts",
+      "node": "./build/cjs/src/abis/*.js",
+      "import": "./build/esm/src/abis/*.js",
+      "require": "./build/cjs/src/abis/*.js",
+      "default": "./build/cjs/src/abis/*.js"
+    },
+    "./utils/*": {
+      "types": "./build/types/src/utils/*.d.ts",
+      "node": "./build/cjs/src/utils/*.js",
+      "import": "./build/esm/src/utils/*.js",
+      "require": "./build/cjs/src/utils/*.js",
+      "default": "./build/cjs/src/utils/*.js"
+    },
+    "./types/*": {
+      "types": "./build/types/src/types/*.d.ts",
+      "node": "./build/cjs/src/types/*.js",
+      "import": "./build/esm/src/types/*.js",
+      "require": "./build/cjs/src/types/*.js",
+      "default": "./build/cjs/src/types/*.js"
+    }
+  },
+  "scripts": {
+    "prebuild": "pnpm tsx scripts/prebuild",
+    "prepare": "ts-patch install -s",
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "build:cjs": "tsc -p tsconfig.cjs.json && echo '{\"type\": \"commonjs\"}' > build/cjs/src/package.json",
+    "build:esm": "tsc -p tsconfig.esm.json && echo '{\"type\": \"module\"}' > build/esm/src/package.json",
+    "build:types": "tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "tscheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf build/*.tsbuildinfo build/**/*.tsbuildinfo",
+    "build": "rm -rf build && pnpm build:types && pnpm build:cjs && pnpm build:esm && pnpm clean",
+    "prepublishOnly": "pnpm build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@masterpeach/aggregator-sdk": "0.1.5",
+    "cross-fetch": "4.0.0",
+    "crypto-js": "4.2.0",
+    "ethers": "6.17.0",
+    "lodash": "4.18.1",
+    "query-string": "7.1.1",
+    "viem": "2.50.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "7.28.6",
+    "@types/lodash": "4.17.24",
+    "@types/node": "18.7.13",
+    "lint-staged": "17.0.5",
+    "typescript": "5.4.2",
+    "ts-patch": "3.2.1",
+    "tsx": "4.19.0",
+    "typescript-transform-paths": "3.5.1",
+    "vitest": "3.0.5"
+  },
+  "files": [
+    "build",
+    "CHANGELOG.md"
+  ],
+  "packageManager": "pnpm@10.9.0"
+}

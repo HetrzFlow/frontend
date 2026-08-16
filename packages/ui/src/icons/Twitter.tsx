@@ -1,0 +1,22 @@
+import { FC } from 'react';
+import { IconProps } from './types';
+
+const TwitterIcon: FC<IconProps> = ({ size = 24, ...props }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+    >
+      <path
+        d="M17.176 4H19.936L13.9061 10.7775L21 20H15.4454L11.0951 14.4065L6.11727 20H3.35539L9.80498 12.7508L3 4H8.69528L12.6277 9.11254L17.176 4ZM16.2073 18.3753H17.7367L7.86432 5.5394H6.22323L16.2073 18.3753Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+};
+
+export default TwitterIcon;

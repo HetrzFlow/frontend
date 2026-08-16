@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+@import '@repo/ui/style.css';
+
+@source "../../node_modules/@repo/ui/src";
+@source "../../node_modules/@repo/common/src";
+
+@layer base {
+  :root {
+    --hyper-lev: #f8ff94;
+    --loss-rebate: #ffbf00;
+  }
+
+  html,
+  body {
+    max-width: 100vw;
+    max-height: 100dvh;
+    overflow: hidden;
+    text-rendering: optimizelegibility;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+  }
+
+  *::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+@theme inline {
+  --color-hyper-lev: var(--hyper-lev);
+  --color-loss-rebate: var(--loss-rebate);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(var(--marquee-end, calc(-50%)));
+  }
+}
+
+@keyframes credit-market-single-scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - 100vw));
+  }
+}
+
+@utility animate-marquee {
+  animation: marquee var(--marquee-duration, 20s) linear infinite;
+}
+
+@utility animate-credit-market-single-scroll {
+  animation: credit-market-single-scroll
+    var(--credit-market-single-duration, 18s) linear infinite;
+}
+
+#privy-dialog {
+  --privy-color-background: var(--bg-1);
+  --privy-color-accent: var(--accent);
+  --privy-color-foreground-accent: var(--accent-foreground);
+  --privy-color-foreground-4: var(--t-430);
+  --privy-color-background-2: var(--bg-4);
+  --privy-color-accent-dark: var(--accent);
+  --privy-color-accent-light: var(--accent);
+  --privy-color-foreground-disabled: var(--t-430);
+  --privy-color-border-focus: var(--accent);
+}
